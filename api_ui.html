@@ -196,15 +196,15 @@
       for (x = 0; x < iters; x++) {
       $.ajax({
         type: "POST",
-        url: "",
+        url: "http://0.0.0.0:8080",
         dataType: "json",
         data: JSON.stringify(getInputValues()),
         success: function (data) {
-          var card_text = data.text_format;
-          var card_image = 'data:image/jpg;base64, ' + data.image
+          var card_text = data.text_format.replace(/\n/g, "<br />");
+          var card_image = 'data:image/jpg;base64, ' + data.image;
           var html = '<p class="subtitle">' + card_text + '</p>';
-          $("#card_output").attr('src', card_image);
-          $("#text_output").html(html);
+          $("#card-output").attr('src', card_image);
+          $("#text-output").html(html);
         },
         error: function (jqXHR, textStatus, errorThrown) {
           var html = '<div class="gen-box warning">There was an error generating the text! Please try again!</div><div class="gen-border"></div>';
