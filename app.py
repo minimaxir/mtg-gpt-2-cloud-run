@@ -11,17 +11,6 @@ MIN_LENGTH = 50
 MAX_LENGTH = 200
 STEP_LENGTH = 50
 
-INVALID_SUBREDDITS = set([
-    "me_irl",
-    "2meirl4meirl",
-    "anime_irl",
-    "furry_irl",
-    "cursedimages",
-    "meirl",
-    "hmmm",
-    "ooer"
-])
-
 app = Starlette(debug=False)
 
 sess = gpt2.start_tf_sess(threads=1)
@@ -48,24 +37,21 @@ async def homepage(request):
         return UJSONResponse({'text': ''},
                              headers=response_header)
 
-    subreddit = params.get('subreddit', '').lower().strip()
+    card_name = params.get('card_name', '')[:30].lower().strip()
+    card_type = params.get('card_type', '')
+    card_mana = params.get('card_mana', '')
 
-    if subreddit == '':
-        subreddit = 'askreddit'
-
-    if subreddit in INVALID_SUBREDDITS:
-        return UJSONResponse({'text': '<span style="font-size: 2em">ಠ_ಠ</span>'},
-                             headers=response_header)
-
-    keywords = " ".join([v.replace(' ', '-').strip() for k, v in params.items()
-                         if 'key' in k and v != ''])
-
-    prepend = "<|startoftext|>~`{}~^{}~@".format(subreddit, keywords)
-    text = prepend + params.get('prefix', '')[:100]
+    text = "|"
+    if card_name != '':
+        text += '1' + card_name
+    if card_type != '':
+        text += '5' + card_type
+    if card_mana != '':
+        text += '3' + card_mana
 
     length = MIN_LENGTH
 
-    while '<|endoftext|>' not in text and length <= MAX_LENGTH:
+    while '\n' not in text and length <= MAX_LENGTH:
         text = gpt2.generate(sess,
                              length=STEP_LENGTH,
                              temperature=0.7,
@@ -85,13 +71,7 @@ async def homepage(request):
             gpt2.load_gpt2(sess)
             generate_count = 0
 
-    prepend_esc = re.escape(prepend)
-    eot_esc = re.escape('<|endoftext|>')
-
-    if '<|endoftext|>' not in text:
-        pattern = '(?:{})(.*)'.format(prepend_esc)
-    else:
-        pattern = '(?:{})(.*)(?:{})'.format(prepend_esc, eot_esc)
+    pattern = '(.*)(?:\n)'
 
     trunc_text = re.search(pattern, text)
 
