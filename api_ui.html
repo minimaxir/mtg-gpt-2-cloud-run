@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+
+<style>
+  html,
+  body {
+    height: 95% !important;
+    margin: 0 !important;
+  }
+
+  footer {
+    /*max-height: 5% !important;*/
+    padding: 1em !important
+  }
+
+  section {
+    min-height: 95% !important
+  }
+
+  .gen-box {
+    background-color: #fff;
+    display: block;
+    padding: 1.25rem;
+    color: #4a4a4a;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.25;
+  }
+
+  .gen-border {
+    height: 0.125em;
+    background-color: #d5d5d5;
+  }
+
+  .gen-box.warning {
+    color: red;
+    font-weight: 700;
+
+  }
+
+  .brand-text {
+    display: flex;
+    align-items: center;
+    font-size: 1.5em
+  }
+
+  #extra-buttons {
+    padding-top: 1em;
+    margin-top: 1em;
+    border-top: 0.5px solid #d5d5d5;
+  }
+</style>
+
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AI-Generated Reddit Submission titles with GPT-2</title>
+  <meta name="title" content="AI-Generated Reddit Submission titles with GPT-2" />
+  <meta name="description" content="Generate Reddit headlines using GPT-2!" />
+
+
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css">
+  <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+</head>
+<nav class="navbar" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <span class="icon is-large">
+      <span class="fa-stack">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fas fa-robot fa-stack-1x fa-inverse"></i>
+      </span>
+    </span>
+    <div class="brand-text is-family-code is-uppercase has-text-weight-bold">Reddit AI</div>
+  </div>
+
+  <div id="navbarBasicExample" class="navbar-menu is-active">
+    <div class="navbar-start">
+
+
+      <div class="navbar-item">
+        Generate custom Reddit titles from an AI using GPT-2
+      </div>
+
+    </div>
+
+    <div class="navbar-end">
+      <div class="navbar-item">
+        <div class="buttons">
+          <a class="button is-warning" href="https://www.patreon.com/minimaxir" target="_blank">
+            <span class="icon">
+              <i class="fab fa-lg fa-patreon"></i>
+            </span><span>Patreon</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<body>
+  <section id="main" class="section">
+    <div class="container">
+      <div class="columns is-variable is-5">
+        <div class="column is-narrow" style="width: 250px;">
+          <form id="gen-form">
+              <div class="field">
+                  <label class="label">Subreddit</label>
+                  <div class="control">
+                    <input id="subreddit" class="input" type="text" placeholder="AskReddit" value="AskReddit" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">
+                  </div>
+                  <p class="help">Reddit subreddit to generate text from. Not case-sensitive.</p>
+                </div>
+                <div class="field">
+                    <label class="label">Text Prompt</label>
+                    <div class="control">
+                      <input id="prefix" class="input" type="text" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"></input>
+                    </div>
+                    <p class="help">Starts the generated title with the specified text. <em>(Optional: max 100 characters)</em></p>
+                  </div>
+                <div class="field">
+                    <label class="label">Keywords/Phrases</label>
+                    <div class="control">
+                      <input id="key1" class="input" type="text" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">
+                      <input id="key2" class="input" type="text" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">
+                      <input id="key3" class="input" type="text" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">
+                    </div>
+                    <p class="help">Keywords/phrases to base the generated title upon. Use case-sensitive inputs for better results. <em>(Optional)</em></p> 
+                  </div>
+                  <div class="field">
+                      <label class="label"># Texts Generated</label>
+                      <div class="control">
+                        <input id="numtexts" class="input" type="text" placeholder="1" value="1" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"></input>
+                      </div>
+                      <p class="help">Number of titles to generate with the given parameters. Titles are generated in parallel. <em>(min 1, max 5)</em></p>
+                    </div>
+            <div class="buttons">
+              <span class="control">
+                <button type="submit" name="submit" id="generate-text" class="button is-link">
+                  <span class="icon">
+                    <i class="fas fa-md fa-pen"></i>
+                  </span><span>Generate Text!</span></button>
+              </span>
+
+            </div>
+          </form>
+          <div id="extra-buttons" class="buttons">
+            <span class="control">
+              <button id="save-image" class="button is-success">
+                <span class="icon">
+                  <i class="fas fa-md fa-save"></i>
+                </span><span>Save Image</span></button>
+            </span>
+            <span class="control">
+              <button id="clear-text" class="button is-danger">
+                <span class="icon">
+                  <i class="fas fa-md fa-trash-alt"></i>
+                </span><span>Clear Texts</span</button> </span> </div> </div> <div id="model-output" class="column">
+                  <p id="tutorial" class="subtitle"><em>Generated text will appear here!
+                      Use the form to configure GPT-2 and press <strong>Generate Text</strong>
+                      to get your Reddit submission title!
+                    </em></p>
+          </div>
+        </div>
+      </div>
+
+
+  </section>
+
+  <footer class="footer">
+    <div class="content has-text-centered">
+      <p>
+        Made by <a href="https://twitter.com/minimaxir" target="_blank">Max Woolf</a> using <a href="https://github.com/minimaxir/gpt-2-simple" target="_blank"><strong>gpt-2-simple</strong></a>
+        and <a href="https://github.com/minimaxir/gpt-2-cloud-run" target="_blank"><strong>gpt-2-cloud-run</strong></a>.
+         Original GPT-2 model provided by <a
+          href="https://openai.com" target="_blank">OpenAI</a>. This website has no affiliation with <a href="https://reddit.com" target="_blank">Reddit</a>.
+      </p>
+    </div>
+  </footer>
+
+
+</body>
+
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous">
+  </script>
+
+<script src="http://html2canvas.hertzen.com/dist/html2canvas.min.js">
+</script>
+
+<script type="text/javascript">
+  $(function () {
+    $('#gen-form').submit(function (e) {
+      e.preventDefault();
+      var iters =  Math.min(Math.max(Number($("#numtexts").val()), 1), 5);
+      $('#generate-text').addClass("is-loading");
+      $('#generate-text').prop("disabled", true);
+
+      for (x = 0; x < iters; x++) {
+      $.ajax({
+        type: "POST",
+        url: "https://gpt2-reddit-dstdu4u23a-uc.a.run.app/",
+        dataType: "json",
+        data: JSON.stringify(getInputValues()),
+        success: function (data) {
+          $('#tutorial').remove();
+          var gentext = data.text;
+          if ($("#prefix").length & $("#prefix").val() != '') {
+            var pattern = new RegExp('^' + RegExp.escape($("#prefix").val()), 'g');
+            var gentext = gentext.replace(pattern, '<strong>' + $("#prefix").val() + '</strong>');
+          }
+          var gentext = gentext.replace(/\n\n/g, "<div><br></div>").replace(/\n/g, "<div></div>");
+          var html = '<div class=\"gen-box\">' + gentext + '</div><div class="gen-border"></div>';
+          $(html).appendTo('#model-output').hide().fadeIn("slow");
+        },
+        error: function (jqXHR, textStatus, errorThrown) {
+          $('#tutorial').remove();
+          var html = '<div class="gen-box warning">There was an error generating the text! Please try again!</div><div class="gen-border"></div>';
+          $(html).appendTo('#model-output').hide().fadeIn("slow");
+        }
+      });
+      }
+
+      $(document).ajaxStop(function() {
+        $('#generate-text').removeClass("is-loading");
+        $('#generate-text').prop("disabled", false);
+      });
+
+    });
+    $('#clear-text').click(function (e) {
+      $('#model-output').text('')
+    });
+
+    // https://stackoverflow.com/a/51478809
+    $("#save-image").click(function () {
+
+      html2canvas(document.querySelector('#model-output')).then(function (canvas) {
+
+        saveAs(canvas.toDataURL(), 'gen_texts.png');
+      });
+    });
+
+  });
+
+  function getInputValues() {
+    var inputs = {};
+    $("textarea, input").each(function () {
+      inputs[$(this).attr('id')] = $(this).val();
+    });
+    return inputs;
+  }
+
+  RegExp.escape = function(s) {
+    return s.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&');
+    };
+
+  // https://stackoverflow.com/a/51478809
+  function saveAs(uri, filename) {
+
+    var link = document.createElement('a');
+
+    if (typeof link.download === 'string') {
+
+      link.href = uri;
+      link.download = filename;
+
+      //Firefox requires the link to be in the body
+      document.body.appendChild(link);
+
+      //simulate click
+      link.click();
+
+      //remove the link when done
+      document.body.removeChild(link);
+
+    } else {
+
+      window.open(uri);
+
+    }
+  }
+
+
+</script>
+
+</html>
