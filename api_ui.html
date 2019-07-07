@@ -55,9 +55,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>AI-Generated Reddit Submission titles with GPT-2</title>
-  <meta name="title" content="AI-Generated Reddit Submission titles with GPT-2" />
-  <meta name="description" content="Generate Reddit headlines using GPT-2!" />
+  <title>AI-Generated Magic: The Gathering Cards with GPT-2</title>
+  <meta name="title" content="AI-Generated Magic: The Gathering Cards with GPT-2" />
+  <meta name="description" content="Make your own AI-generated Magic cards!" />
 
 
 
@@ -72,7 +72,7 @@
         <i class="fas fa-robot fa-stack-1x fa-inverse"></i>
       </span>
     </span>
-    <div class="brand-text is-family-code is-uppercase has-text-weight-bold">Reddit AI</div>
+    <div class="brand-text is-family-code is-uppercase has-text-weight-bold">Magic AI</div>
   </div>
 
   <div id="navbarBasicExample" class="navbar-menu is-active">
@@ -80,7 +80,7 @@
 
 
       <div class="navbar-item">
-        Generate custom Reddit titles from an AI using GPT-2
+        Generate custom Magic: The Gathering cards from an AI using GPT-2
       </div>
 
     </div>
@@ -106,35 +106,26 @@
         <div class="column is-narrow" style="width: 250px;">
           <form id="gen-form">
               <div class="field">
-                  <label class="label">Subreddit</label>
+                  <label class="label">Card Name</label>
                   <div class="control">
-                    <input id="subreddit" class="input" type="text" placeholder="AskReddit" value="AskReddit" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">
+                    <input id="card_name" class="input" type="text" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">
                   </div>
-                  <p class="help">Reddit subreddit to generate text from. Not case-sensitive.</p>
+                  <p class="help">Card name of the generated card. <em>(Optional: max 30 characters)</em></p>
                 </div>
                 <div class="field">
-                    <label class="label">Text Prompt</label>
+                    <label class="label">Card Type</label>
                     <div class="control">
-                      <input id="prefix" class="input" type="text" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"></input>
+                      <input id="card_type" class="input" type="text" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"></input>
                     </div>
-                    <p class="help">Starts the generated title with the specified text. <em>(Optional: max 100 characters)</em></p>
+                    <p class="help">Card type of the generated card. <em>(Optional)</em></p>
                   </div>
                 <div class="field">
-                    <label class="label">Keywords/Phrases</label>
+                    <label class="label">Card Mana Cost</label>
                     <div class="control">
-                      <input id="key1" class="input" type="text" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">
-                      <input id="key2" class="input" type="text" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">
-                      <input id="key3" class="input" type="text" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">
+                      <input id="card_mana" class="input" type="text" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">
                     </div>
-                    <p class="help">Keywords/phrases to base the generated title upon. Use case-sensitive inputs for better results. <em>(Optional)</em></p> 
+                    <p class="help">Mana cost of the generated card. <em>(Optional: use the traditional format, e.g. <strong>1GW</strong> or <strong>3U</strong>. Put hybrid/Phyrexian mana symbols in brackets, e.g. <strong>1{GW}{GW}</strong> or <strong>3{PU}</strong>)</em></p> 
                   </div>
-                  <div class="field">
-                      <label class="label"># Texts Generated</label>
-                      <div class="control">
-                        <input id="numtexts" class="input" type="text" placeholder="1" value="1" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"></input>
-                      </div>
-                      <p class="help">Number of titles to generate with the given parameters. Titles are generated in parallel. <em>(min 1, max 5)</em></p>
-                    </div>
             <div class="buttons">
               <span class="control">
                 <button type="submit" name="submit" id="generate-text" class="button is-link">
@@ -145,18 +136,7 @@
 
             </div>
           </form>
-          <div id="extra-buttons" class="buttons">
-            <span class="control">
-              <button id="save-image" class="button is-success">
-                <span class="icon">
-                  <i class="fas fa-md fa-save"></i>
-                </span><span>Save Image</span></button>
-            </span>
-            <span class="control">
-              <button id="clear-text" class="button is-danger">
-                <span class="icon">
-                  <i class="fas fa-md fa-trash-alt"></i>
-                </span><span>Clear Texts</span</button> </span> </div> </div> <div id="model-output" class="column">
+          </div> <div id="model-output" class="column">
                   <p id="tutorial" class="subtitle"><em>Generated text will appear here!
                       Use the form to configure GPT-2 and press <strong>Generate Text</strong>
                       to get your Reddit submission title!
@@ -174,7 +154,7 @@
         Made by <a href="https://twitter.com/minimaxir" target="_blank">Max Woolf</a> using <a href="https://github.com/minimaxir/gpt-2-simple" target="_blank"><strong>gpt-2-simple</strong></a>
         and <a href="https://github.com/minimaxir/gpt-2-cloud-run" target="_blank"><strong>gpt-2-cloud-run</strong></a>.
          Original GPT-2 model provided by <a
-          href="https://openai.com" target="_blank">OpenAI</a>. This website has no affiliation with <a href="https://reddit.com" target="_blank">Reddit</a>.
+          href="https://openai.com" target="_blank">OpenAI</a>. This website has no affiliation with <a href="https://www.wizards.com" target="_blank">Wizards of the Coast</a>.
       </p>
     </div>
   </footer>
@@ -185,9 +165,6 @@
 <script src="https://code.jquery.com/jquery-3.4.1.min.js"
   integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous">
   </script>
-
-<script src="http://html2canvas.hertzen.com/dist/html2canvas.min.js">
-</script>
 
 <script type="text/javascript">
   $(function () {
