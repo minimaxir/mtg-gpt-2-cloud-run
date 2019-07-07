@@ -6,11 +6,14 @@ import tensorflow as tf
 import uvicorn
 import os
 import re
+import requests
 
 
 MIN_LENGTH = 50
 MAX_LENGTH = 200
 STEP_LENGTH = 50
+
+IMAGE_API_URL = ''
 
 app = Starlette(debug=False)
 
@@ -111,7 +114,9 @@ async def homepage(request):
         if all([counts[x] == 1 for x in section_ids]):
             good_text = True
 
-    return UJSONResponse({'text': trunc_text.group(1)},
+    r = requests.post(IMAGE_API_URL, json={'text': trunc_text})
+
+    return UJSONResponse(r.json(),
                          headers=response_header)
 
 if __name__ == '__main__':
