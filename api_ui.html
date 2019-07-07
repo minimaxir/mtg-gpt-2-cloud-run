@@ -149,12 +149,10 @@
           <div id="model-output" class="column">
               <div class="columns">
                   <div class="column">
-                    <img id="card-output" src="dockercard.jpg"></img>
+                    <img id="card-output" src="tutorial_example.jpg"></img>
                   </div>
                   <div id="text-output" class="column">
-                      <p class="subtitle">Generated text will appear here!
-                          Use the form to configure GPT-2 and press <strong>Generate Text</strong>
-                          to get your Reddit submission title!</p>
+                    <p class="subtitle">Tutorial Example {1}{U}{U} (uncommon)<br>Sorcery<br>Draw cards equal to the number of cards target opponent discarded this turn.</p>
                         
                   </div>
                 </div>
@@ -208,7 +206,7 @@
         },
         error: function (jqXHR, textStatus, errorThrown) {
           var html = '<div class="gen-box warning">There was an error generating the text! Please try again!</div><div class="gen-border"></div>';
-          $("#text_output").html(html);
+          $("#text-output").html(html);
         }
       });
       }
