@@ -10,11 +10,11 @@ import requests
 from random import uniform
 
 
-MIN_LENGTH = 50
+MIN_LENGTH = 100
 MAX_LENGTH = 200
 STEP_LENGTH = 50
 
-IMAGE_API_URL = 'https://gpt2-mtg-image-dstdu4u23a-uc.a.run.app'
+IMAGE_API_URL = 'http://0.0.0.0:8081'
 
 app = Starlette(debug=False)
 
@@ -66,7 +66,7 @@ async def homepage(request):
 
     card_name = params.get('card_name', '')[:30].lower().strip()
     card_type = params.get('card_type', '')
-    card_mana = params.get('card_mana', '')
+    card_mana = params.get('card_mana', '').strip()
 
     text = "<|startoftext|>|"
     if card_name != '':
@@ -75,7 +75,7 @@ async def homepage(request):
         text += '5' + card_type + "|"
     if card_mana != '':
         try:
-            mana_enc = encode_mana(card_mana)
+            mana_enc = await encode_mana(card_mana)
         except:
             return UJSONResponse({'text': 'The mana cost was entered incorrectly!'},
                                  headers=response_header)
