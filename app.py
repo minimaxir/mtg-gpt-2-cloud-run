@@ -64,7 +64,7 @@ async def homepage(request):
     card_type = params.get('card_type', '')
     card_mana = params.get('card_mana', '')
 
-    text = "|"
+    text = "<|startoftext|>|"
     if card_name != '':
         text += '1' + card_name + "|"
     if card_type != '':
@@ -80,15 +80,15 @@ async def homepage(request):
     length = MIN_LENGTH
     good_text = False
     while not good_text:
-        while '\n' not in text and length <= MAX_LENGTH:
+        while '<|endoftext|>' not in text and length <= MAX_LENGTH:
             text = gpt2.generate(sess,
-                                length=STEP_LENGTH,
-                                temperature=0.7,
-                                top_k=40,
-                                prefix=text,
-                                include_prefix=True,
-                                return_as_list=True
-                                )[0]
+                                 length=STEP_LENGTH,
+                                 temperature=1.0,
+                                 top_k=40,
+                                 prefix=text,
+                                 include_prefix=True,
+                                 return_as_list=True
+                                 )[0]
             length += STEP_LENGTH
 
             generate_count += 1
@@ -100,7 +100,9 @@ async def homepage(request):
                 gpt2.load_gpt2(sess)
                 generate_count = 0
 
-        pattern = r'(.*)(?:\n)'
+        prepend_esc = re.escape('<|startoftext|>')
+        eot_esc = re.escape('<|endoftext|>')
+        pattern = '(?:{})(.*)(?:{})'.format(prepend_esc, eot_esc)
         trunc_text = re.search(pattern, text)
 
         # ensure there is only one of each section in the generated card
