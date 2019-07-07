@@ -148,14 +148,14 @@
           </div>
           <div id="model-output" class="column">
               <div class="columns">
-                  <div id="card-output" class="column">
-                    <p class="bd-notification is-info">First nested column</p>
+                  <div class="column">
+                    <img id="card-output" src="dockercard.jpg"></img>
                   </div>
                   <div id="text-output" class="column">
-                      <p id="tutorial" class="subtitle"><em>Generated text will appear here!
+                      <p class="subtitle">Generated text will appear here!
                           Use the form to configure GPT-2 and press <strong>Generate Text</strong>
-                          to get your Reddit submission title!
-                        </em></p>
+                          to get your Reddit submission title!</p>
+                        
                   </div>
                 </div>
                   
@@ -171,8 +171,9 @@
       <p>
         Made by <a href="https://twitter.com/minimaxir" target="_blank">Max Woolf</a> using <a href="https://github.com/minimaxir/gpt-2-simple" target="_blank"><strong>gpt-2-simple</strong></a>
         and <a href="https://github.com/minimaxir/gpt-2-cloud-run" target="_blank"><strong>gpt-2-cloud-run</strong></a>.
-         Original GPT-2 model provided by <a
-          href="https://openai.com" target="_blank">OpenAI</a>. This website has no affiliation with <a href="https://www.wizards.com" target="_blank">Wizards of the Coast</a>.
+         Inspired by  <a
+          href="https://twitter.com/roborosewater" target="_blank">RoboRosewater</a> and <a
+          href="https://twitter.com/droidrosewater" target="_blank">DroidRosewater</a>. This website has no affiliation with <a href="https://www.wizards.com" target="_blank">Wizards of the Coast</a>.
       </p>
     </div>
   </footer>
@@ -199,20 +200,15 @@
         dataType: "json",
         data: JSON.stringify(getInputValues()),
         success: function (data) {
-          $('#tutorial').remove();
-          var gentext = data.text;
-          if ($("#prefix").length & $("#prefix").val() != '') {
-            var pattern = new RegExp('^' + RegExp.escape($("#prefix").val()), 'g');
-            var gentext = gentext.replace(pattern, '<strong>' + $("#prefix").val() + '</strong>');
-          }
-          var gentext = gentext.replace(/\n\n/g, "<div><br></div>").replace(/\n/g, "<div></div>");
-          var html = '<div class=\"gen-box\">' + gentext + '</div><div class="gen-border"></div>';
-          $(html).appendTo('#model-output').hide().fadeIn("slow");
+          var card_text = data.text_format;
+          var card_image = 'data:image/jpg;base64, ' + data.image
+          var html = '<p class="subtitle">' + card_text + '</p>';
+          $("#card_output").attr('src', card_image);
+          $("#text_output").html(html);
         },
         error: function (jqXHR, textStatus, errorThrown) {
-          $('#tutorial').remove();
           var html = '<div class="gen-box warning">There was an error generating the text! Please try again!</div><div class="gen-border"></div>';
-          $(html).appendTo('#model-output').hide().fadeIn("slow");
+          $("#text_output").html(html);
         }
       });
       }
