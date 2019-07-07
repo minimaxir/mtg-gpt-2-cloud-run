@@ -7,13 +7,14 @@ import uvicorn
 import os
 import re
 import requests
+from random import uniform
 
 
 MIN_LENGTH = 50
 MAX_LENGTH = 200
 STEP_LENGTH = 50
 
-IMAGE_API_URL = ''
+IMAGE_API_URL = 'https://gpt2-mtg-image-dstdu4u23a-uc.a.run.app'
 
 app = Starlette(debug=False)
 
@@ -78,7 +79,7 @@ async def homepage(request):
         except:
             return UJSONResponse({'text': 'The mana cost was entered incorrectly!'},
                                  headers=response_header)
-        text += '3' + card_mana + "|"
+        text += '3' + mana_enc + "|"
 
     length = MIN_LENGTH
     good_text = False
@@ -86,7 +87,7 @@ async def homepage(request):
         while '<|endoftext|>' not in text and length <= MAX_LENGTH:
             text = gpt2.generate(sess,
                                  length=STEP_LENGTH,
-                                 temperature=1.0,
+                                 temperature=uniform(0.7, 1.2),
                                  top_k=40,
                                  prefix=text,
                                  include_prefix=True,
@@ -106,7 +107,7 @@ async def homepage(request):
         prepend_esc = re.escape('<|startoftext|>')
         eot_esc = re.escape('<|endoftext|>')
         pattern = '(?:{})(.*)(?:{})'.format(prepend_esc, eot_esc)
-        trunc_text = re.search(pattern, text)
+        trunc_text = re.search(pattern, text).group(1)
 
         # ensure there is only one of each section in the generated card
         counts = Counter(trunc_text)
@@ -118,6 +119,9 @@ async def homepage(request):
 
     return UJSONResponse(r.json(),
                          headers=response_header)
+
+    # return UJSONResponse({'text_format': trunc_text},
+    #                      headers=response_header)
 
 if __name__ == '__main__':
     uvicorn.run(app, host='0.0.0.0', port=int(os.environ.get('PORT', 8080)))
