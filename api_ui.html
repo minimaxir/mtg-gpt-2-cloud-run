@@ -114,8 +114,17 @@
                 </div>
                 <div class="field">
                     <label class="label">Card Type</label>
-                    <div class="control">
-                      <input id="card_type" class="input" type="text" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"></input>
+                    <div class="select">
+                      <select id="card_type">
+                        <option value="">(Let the AI decide)</option>
+                        <option value="creature">Creature</option>
+                        <option value="planeswalker">Planeswalker</option>
+                        <option value="instant">Instant</option>
+                        <option value="sorcery">Sorcery</option>
+                        <option value="enchantment">Enchantment</option>
+                        <option value="artifact">Artifact</option>
+                        <option value="land">Land</option>
+                      </select>
                     </div>
                     <p class="help">Card type of the generated card. <em>(Optional)</em></p>
                   </div>
@@ -131,7 +140,7 @@
                 <button type="submit" name="submit" id="generate-text" class="button is-link">
                   <span class="icon">
                     <i class="fas fa-md fa-pen"></i>
-                  </span><span>Generate Text!</span></button>
+                  </span><span>Generate a Card!</span></button>
               </span>
 
             </div>
@@ -170,14 +179,14 @@
   $(function () {
     $('#gen-form').submit(function (e) {
       e.preventDefault();
-      var iters =  Math.min(Math.max(Number($("#numtexts").val()), 1), 5);
+      var iters =  1;
       $('#generate-text').addClass("is-loading");
       $('#generate-text').prop("disabled", true);
 
       for (x = 0; x < iters; x++) {
       $.ajax({
         type: "POST",
-        url: "https://gpt2-reddit-dstdu4u23a-uc.a.run.app/",
+        url: "",
         dataType: "json",
         data: JSON.stringify(getInputValues()),
         success: function (data) {
@@ -222,7 +231,7 @@
 
   function getInputValues() {
     var inputs = {};
-    $("textarea, input").each(function () {
+    $("select, input").each(function () {
       inputs[$(this).attr('id')] = $(this).val();
     });
     return inputs;
