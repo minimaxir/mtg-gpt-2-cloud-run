@@ -24,6 +24,28 @@ response_header = {
 generate_count = 0
 
 
+async def encode_mana(card_mana):
+
+    # extract out mana patterns in brackets.
+    hybrid_pattern = r'(?:\{)(.*?)(?:\})'
+    hybrid_costs = ''.join(re.findall(hybrid_pattern, card_mana))
+
+    # extract colorless number
+    colorless_pattern = r'\d+'
+    colorless_number = re.findall(colorless_pattern, card_mana)
+    if len(colorless_number) > 0:
+        colorless_costs = ''.join(['^' * int(colorless_number[0])])
+    else:
+        colorless_costs = ''
+
+    # get normal mana symbols
+    normal_costs = re.sub(r'(\{.*?\})', '', card_mana)
+    normal_costs = re.sub(r'\d+', '', normal_costs)
+    normal_costs = ''.join(x + x for x in normal_costs)
+
+    return '{' + colorless_costs + normal_costs + hybrid_costs + '}'
+
+
 @app.route('/', methods=['GET', 'POST', 'HEAD'])
 async def homepage(request):
     global generate_count
@@ -43,11 +65,16 @@ async def homepage(request):
 
     text = "|"
     if card_name != '':
-        text += '1' + card_name
+        text += '1' + card_name + "|"
     if card_type != '':
-        text += '5' + card_type
+        text += '5' + card_type + "|"
     if card_mana != '':
-        text += '3' + card_mana
+        try:
+            mana_enc = encode_mana(card_mana)
+        except:
+            return UJSONResponse({'text': 'The mana cost was entered incorrectly!'},
+                                 headers=response_header)
+        text += '3' + card_mana + "|"
 
     length = MIN_LENGTH
 
