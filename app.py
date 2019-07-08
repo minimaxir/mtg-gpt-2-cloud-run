@@ -11,8 +11,8 @@ from random import uniform
 
 
 MIN_LENGTH = 100
-MAX_LENGTH = 200
-STEP_LENGTH = 50
+MAX_LENGTH = 300
+STEP_LENGTH = 100
 
 IMAGE_API_URL = 'http://0.0.0.0:8081'
 
@@ -81,6 +81,7 @@ async def homepage(request):
                                  headers=response_header)
         text += '3' + mana_enc + "|"
 
+    prepend = text
     length = MIN_LENGTH
     good_text = False
     while not good_text:
@@ -114,6 +115,9 @@ async def homepage(request):
         section_ids = ['0', '1', '3', '4', '5', '6', '7', '8', '9']
         if all([counts[x] == 1 for x in section_ids]):
             good_text = True
+        else:
+            text = prepend
+            length = MIN_LENGTH
 
     r = requests.post(IMAGE_API_URL, json={'text': trunc_text})
 
