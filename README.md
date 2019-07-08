@@ -8,6 +8,8 @@ The network was trained with GPT-2 117M for 6500 steps (about 2 hours on a P100 
 
 ## Helpful Notes
 
+* To share the generated card image, you can Save As the generated card locally, and to use it elsewhere, rename it and add a `.jpg` file extension.
+* Since the network overfits, the temperature doesn't have a huge impact; a random temperature between 0.7 and 1.2 is used to make output more random/exciting.
 * The network can recite existing card names and rules text, but rarely to the same card. The network often makes interesting color shift decisions with changes to CMC/Rarity.
 
 ## Maintainer/Creator
