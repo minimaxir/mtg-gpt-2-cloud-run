@@ -14,7 +14,7 @@ MIN_LENGTH = 100
 MAX_LENGTH = 300
 STEP_LENGTH = 100
 
-IMAGE_API_URL = 'http://0.0.0.0:8081'
+IMAGE_API_URL = os.environ.get('APIURL', 'http://0.0.0.0:8080')
 
 app = Starlette(debug=False)
 

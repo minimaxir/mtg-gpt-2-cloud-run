@@ -133,7 +133,7 @@
                     <div class="control">
                       <input id="card_mana" class="input" type="text" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">
                     </div>
-                    <p class="help">Mana cost of the generated card. <em>(Optional: use the traditional format, e.g. <strong>1GW</strong> or <strong>3U</strong>. Put hybrid/Phyrexian mana symbols in brackets, e.g. <strong>1{GW}{GW}</strong> or <strong>3{UP}</strong>)</em></p> 
+                    <p class="help">Mana cost of the generated card. <em>(Optional: use the traditional format, e.g. <strong>1GW</strong> or <strong>3U</strong>. Put hybrid mana symbols in brackets, e.g. <strong>1{GW}{GW}</strong> or <strong>3{2U}</strong>)</em></p> 
                   </div>
             <div class="buttons">
               <span class="control">
@@ -194,7 +194,7 @@
       for (x = 0; x < iters; x++) {
       $.ajax({
         type: "POST",
-        url: "http://0.0.0.0:8080",
+        url: "https://gpt2-mtg-dstdu4u23a-uc.a.run.app/",
         dataType: "json",
         data: JSON.stringify(getInputValues()),
         success: function (data) {
