@@ -18,6 +18,10 @@ You can see examples of card text generation at various temperatures in the `gen
 * In terms of color accuracy, color pie is mostly correct. Creature types and mechanics often follow the appropriate color identity. P/T, mana cost, and rarity are balanced.
 * Occasionally, it does get card types wrong, e.g. P/T on noncreatures.
 
+## See Also
+
+[char-embeddings](https://github.com/minimaxir/char-embeddings) — My first attempt at generating Magic carts with a neural network. (GPT-2 is much better!)
+
 ## Maintainer/Creator
 
 Max Woolf ([@minimaxir](https://minimaxir.com))
