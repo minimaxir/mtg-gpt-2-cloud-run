@@ -20,7 +20,9 @@ You can see examples of card text generation at various temperatures in the `gen
 
 ## See Also
 
-[char-embeddings](https://github.com/minimaxir/char-embeddings) — My first attempt at generating Magic cards with a neural network. (GPT-2 is much better!)
+* [char-embeddings](https://github.com/minimaxir/char-embeddings) — My first attempt at generating Magic cards with a neural network (GPT-2 is much better!).
+* [RoboRosewater](https://twitter.com/roborosewater) — Twitter account which pioneered the use of text generation for Magic cards.
+* [DroidRosewater](https://twitter.com/droidrosewater) — Variant of RoboRosewater which allows user input (although it cheated a bit due to how the RNN generates). Credit to Shoghi for [pointing me](https://twitter.com/shoghicp/status/1124470256976707585) to the wine solution for generating cards!
 
 ## Maintainer/Creator
 
