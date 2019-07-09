@@ -1,0 +1,955 @@
+Brine Sliver {0} (common)
+Creature ~ Sliver (2/2)
+All slivers have "{2}, sacrifice this permanent at any time: target sliver gets +2/+2 until end of turn."
+~~~~~~~~
+Elvish Archdruid {2}{G} (common)
+Creature ~ Elf Druid (2/2)
+When Elvish Archdruid dies, create two 1/1 white cat creature tokens with lifelink.
+~~~~~~~~
+Stalking Leonin {2}{R} (common)
+Creature ~ Hound Archer (2/2)
+When Stalking Leonin enters the battlefield, creatures that didn't attack this turn get +3/+0 until end of turn.
+~~~~~~~~
+Azorius Alchemy (uncommon)
+Land
+{T}: add {C}.
+{T}: add {W} or {U}. Azorius Alchemy doesn't untap during your next untap step.
+~~~~~~~~
+Hidden Stag {1}{G} (common)
+Tribal Enchantment ~ Tribal Enchantment
+Whenever one or more % counters are removed from Hidden Stag, you may search your library for a card named hidden stag, reveal it, put it into your hand, then shuffle your library.
+~~~~~~~~
+Synchronous Sliver {5}{U} (uncommon)
+Creature ~ Sliver (3/3)
+Sliver creatures you control have flying and haste.
+~~~~~~~~
+Drekavac {3}{B}{B} (rare)
+Creature ~ Horror (4/5)
+When Drekavac enters the battlefield, target player discards a card.
+{B}, sacrifice Drekavac: it deals 2 damage to any target.
+~~~~~~~~
+Rancor {3}{G} (uncommon)
+Enchantment ~ Aura
+Enchant creature
+Enchanted creature has trample.
+Whenever enchanted creature deals combat damage to a player, put a +1/+1 counter on another target creature you control.
+~~~~~~~~
+Stensia Banquet {1}{W} (common)
+Creature ~ Human Scout
+Stensia Banquet can't attack or block alone.
+~~~~~~~~
+Electropotence {7}{G}{G} (rare)
+Creature ~ Hellion Hydra (7/7)
+Convoke
+Trample
+~~~~~~~~
+Servo Schematic {1} (uncommon)
+Artifact
+{T}: add "echo {2}{W}."
+~~~~~~~~
+Banshee Of The Dread Choir {1}{W}{B} (uncommon)
+Creature ~ Skeleton (2/2)
+{3}, {T}, tap three untapped ghost you control: target player draws three cards.
+~~~~~~~~
+Bog Initiate {1}{B} (common)
+Creature ~ Human Rogue (2/2)
+Fear
+Exile target creature an opponent controls. That creature deals damage equal to its power to Bog Initiate.
+~~~~~~~~
+Kranioceros {2}{U} (rare)
+Legendary Creature ~ Elf Shaman (2/2)
+{1}{B}{R}: Kranioceros gets +X/+X until end of turn, where X is the number of lands you control.
+~~~~~~~~
+Felhide Petrifier {3}{R} (uncommon)
+Creature ~ Zombie (4/4)
+Extort
+Whenever you tap a swamp for mana, add an additional {B}.
+~~~~~~~~
+Kor Duelist {W} (common)
+Enchantment ~ Kor Duelist
+As long as Kor Duelist is equipped, it has double strike.
+~~~~~~~~
+Sacellum Godspeaker {3}{G} (common)
+Creature ~ Faerie Druid (1/3)
+Flash
+When Sacellum Godspeaker enters the battlefield, you may cast it without paying its mana cost.
+~~~~~~~~
+Giant Bushwhacker {W/U} (common)
+Creature ~ Crocodile (1/1)
+Whenever Giant Bushwhacker attacks, tap target creature defending player controls.
+~~~~~~~~
+Containment Priest {W} (rare)
+Creature ~ Human Cleric (2/1)
+{T}: target creature's controller sacrifices it.
+~~~~~~~~
+
+
+At the beginning of each upkeep, put a +1/+1 counter on  for each 1 life lost this way.
+~~~~~~~~
+Skymalf, Host Of Rats {3}{B}{B}
+Creature ~ Vampire Warden (3/5)
+Flying
+When Skymalf, Host Of Rats enters the battlefield, if you cast it from your hand, destroy all nonartifact, nonblack creatures. They can't be regenerated.
+~~~~~~~~
+Shivan Harvest {X}{R} (rare)
+Sorcery
+Target opponent chooses a number. During that player's next turn, that player's graveyard becomes the chosen number.
+~~~~~~~~
+Lure Of Hope {1}{W} (common)
+Instant
+Cycling {W}
+Target creature you control gains protection from the color of your choice until end of turn.
+~~~~~~~~
+Rathi Intimidator {B/G}{B/G}{B/G} (common)
+Creature ~ Zombie Horror (0/0)
+Trample
+Infect
+Rathi Intimidator enters the battlefield with five +1/+1 counters on it.
+Whenever you cast a multicolored spell, move a +1/+1 counter from Rathi Intimidator onto another target multicolored creature.
+~~~~~~~~
+Straw Meat {1}{W} (uncommon)
+Enchantment
+{1}, {T}, sacrifice Straw Meat: it deals 2 damage to target attacking or blocking creature.
+~~~~~~~~
+Shivan Sand-Mage {4}{U} (uncommon)
+Creature ~ Kraken Wizard (3/4)
+When Shivan Sand-Mage enters the battlefield, tap all creatures your opponents control.
+{3}{R/W}{R}: Shivan Sand-Mage gets +0/+X until end of turn and can't be blocked this turn.
+~~~~~~~~
+Mikaeus, The Lunarch (uncommon)
+Legendary Creature ~ Vampire God (3/6)
+Flying
+When Mikaeus, The Lunarch enters the battlefield, exile a creature you control, then return a creature you control to its owner's hand.
+When Mikaeus, The Lunarch leaves the battlefield, return the exiled creature to its owner's hand.
+~~~~~~~~
+Flood Of Tears {1}{U} (common)
+Sorcery
+Return target permanent to its owner's hand. Then destroy another target permanent that player controls if the player has no cards in hand at the beginning of the next end step.
+~~~~~~~~
+Kiora {3}{G}{B}{R} (rare)
+Legendary Planeswalker ~ Kiora ((4))
++2: untap all creatures you control. Those creatures get +2/+2 until end of turn.
+0: create a 3/3 green snake creature token.
+-3: creatures you control get +3/+2 until end of turn.
+~~~~~~~~
+Final Parting {2} (common)
+Artifact
+You may pay 1 life and exile a white card from your hand rather than pay this spell's mana cost.
+Destroy all creatures that entered the battlefield this turn.
+~~~~~~~~
+Wall Of Skylights {G} (common)
+Creature ~ Wall (0/5)
+Defender
+Protection from black
+~~~~~~~~
+Briber'S Purse {1} (common)
+Artifact
+{3}, {T} or {B}, {T}: return target artifact creature card from your graveyard to your hand.
+~~~~~~~~
+Dark Salvation {4}{B} (uncommon)
+Instant
+Choose a color. Target player reveals their hand and discards all cards of that color.
+~~~~~~~~
+Elves Of Deep Shadow {2}{G} (common)
+Creature ~ Elf Shaman (1/1)
+When Elves Of Deep Shadow dies, create a 3/3 green elf shaman creature token.
+~~~~~~~~
+Blinding Flare {1}{R} (rare)
+Sorcery
+Basic landcycling {R}
+Blinding Flare deals damage to each opponent equal to twice the highest converted mana cost among permanents you control.
+~~~~~~~~
+Lullmnayer'S Pulpit {3}{B} (uncommon)
+Land
+{T}: add {B}. If you control three or more zombies, draw a card.
+~~~~~~~~
+Urborg Emissary {3}{B} (common)
+Creature ~ Human Soldier (3/6)
+{B}{B}: Urborg Emissary gets -2/-0 until end of turn and can't block this turn.
+~~~~~~~~
+Temple Of Malady (rare)
+Land
+Temple Of Malady enters the battlefield tapped.
+When Temple Of Malady enters the battlefield, scry 1.
+{T}: add {B} or {G}.
+~~~~~~~~
+Welkin Guide {2}{W} (common)
+Creature ~ Human Cleric (2/1)
+Whenever Welkin Guide attacks and isn't blocked, you gain 2 life.
+~~~~~~~~
+Yarok'S Wavecrasher {5}{U} (rare)
+Artifact Spirit ~ Spirit (2/2)
+Protection from red
+{U}: Yarok'S Wavecrasher gains first strike until end of turn.
+{U/R}: Yarok'S Wavecrasher gains flying until end of turn.
+~~~~~~~~
+Leonin Warleader {2}{W}{W} (rare)
+Rare ~ Cat Soldier (3/3)
+Other cats you control get +1/+3 and have vigilance.
+When Leonin Warleader enters the battlefield, create three 1/1 white cat creature tokens with lifelink.
+~~~~~~~~
+Zodiac Horse {G}{G}{G} (rare)
+Legendary Creature ~ Nishoba (2/1)
+Whenever a nontoken creature you control dies, create a 1/1 green saproling creature token.
+~~~~~~~~
+Obstinate Moonglove {1}{G} (rare)
+Enchantment
+Creatures you control get +2/+2 until end of turn.
+~~~~~~~~
+Ulvenwald Observer {5}{B}{R} (uncommon)
+Creature ~ Eldrazi Horror (3/3)
+Fear
+~~~~~~~~
+Leghorn Haunts {4}{B} (common)
+Creature ~ Rat (3/2)
+~~~~~~~~
+Sunscourge Champion {5}{W} (rare)
+Creature ~ Vampire (3/3)
+{T}: all combat damage that would be dealt to you this turn is dealt to target legendary creature instead.
+~~~~~~~~
+Flare {2}{R} (common)
+Instant
+Flare deals 1 damage to any target. Put a -1/-1 counter on a creature.
+~~~~~~~~
+Bog Humbugs {5}{B} (common)
+Creature ~ Insect (4/3)
+Flying
+When Bog Humbugs enters the battlefield, exile all cards from all graveyards.
+When Bog Humbugs leaves the battlefield, return the exiled cards to the battlefield under their owners' control.
+~~~~~~~~
+Death'S Duet {3}{B} (uncommon)
+Sorcery
+Target opponent reveals their hand. You choose a creature card from it. That player discards that card. Then if that card's converted mana cost is less than or equal to the revealed card's converted mana cost, discard the sacrificed creature. Activate this ability only any time you could cast a sorcery.
+~~~~~~~~
+Homicidal Seclusion {2}{G/W}{G} (uncommon)
+Enchantment
+Untapped creatures you control get +0/+2.
+~~~~~~~~
+Goblin Kaboomist {R} (rare)
+Creature
+Sacrifice Goblin Kaboomist: flip a coin. If you win the flip, Goblin Kaboomist deals damage to target opponent or planeswalker equal to the number of goblins on the battlefield. If you lose the flip, Goblin Kaboomist deals damage to you equal to the number of goblins on the battlefield. Activate this ability only any time you could cast a sorcery.
+~~~~~~~~
+Vastwood Hydra {2}{G/W} (common)
+Creature ~ Treefolk Shaman (2/3)
+Vigilance
+Reach
+All auras enchanted are draw a card.
+~~~~~~~~
+ {2}{U/P}
+
+{T}: uncast target creature spell.
+~~~~~~~~
+Stalking Vampire {2}{G}{G} (rare)
+World Creature ~ Spider (3/4)
+Flash
+Vigilance
+Trample
+~~~~~~~~
+Sickening Shoal {3}{W} (uncommon)
+Enchantment
+Search your library for a mercenary card, reveal that card, and put it into your hand. Then shuffle your library.
+~~~~~~~~
+Goblin Champion {R} (uncommon)
+Creature ~ Goblin (2/2)
+Trample
+Morph {4}{R}{R}
+At the beginning of your upkeep, you may discard a card. If you don't, untap Goblin Champion and it deals its damage to you.
+~~~~~~~~
+Boreal Shelf (common)
+Land
+{T}: add {C}.
+{T}: add {R} or {W}. Prevent all combat damage that would be dealt this turn.
+~~~~~~~~
+
+
+When  enters the battlefield, you or that creature's controller pay {2}.
+ deals 3 damage to any target.
+At the beginning of each end step, if a planeswalker entered the battlefield this turn, create a 2/2 black zombie creature token.
+~~~~~~~~
+Stormsurge Kavu {3}{R}{R} (uncommon)
+Creature ~ Spirit (3/1)
+Flying
+Double strike
+Whenever Stormsurge Kavu deals combat damage to a player, put a +1/+1 counter on it.
+~~~~~~~~
+Pit Raptor {3}{B} (common)
+Creature ~ Dinosaur (3/3)
+Flying
+First strike
+Megamorph {5}{B}
+Whenever a source you control deals combat damage to a player, that player discards a card.
+~~~~~~~~
+Worldspine Wurm {5}{G} (common)
+Creature ~ Wurm (5/5)
+Reach
+Trample
+When you cast this spell, you create a 4/4 green rhino creature token with trample and haste.
+~~~~~~~~
+Smokebraider {2}{R} (common)
+Creature ~ Viashino Warrior (2/2)
+Haste
+{T}: Smokebraider deals 1 damage to any target.
+~~~~~~~~
+Bloodhusk Ritualist {1}{G}{R} (uncommon)
+Creature ~ Vampire Shaman (3/5)
+You may choose not to untap Bloodhusk Ritualist during your untap step.
+{T}: for as long as Bloodhusk Ritualist remains tapped, target tapped creature doesn't untap during its controller's untap step, and a quest counter on it.
+As long as Bloodhusk Ritualist remains tapped, all creatures can't attack you or a planeswalker you control.
+
+~~~~~~~~
+Shrieking Puma {2}{R} (common)
+Creature ~ Harpy Goblin (2/2)
+{1}{R}: Shrieking Puma gets +1/+0 until end of turn.
+~~~~~~~~
+Hinterland Hermit {1}{G}{R} (uncommon)
+Creature ~ Human Mystic (2/2)
+When Hinterland Hermit enters the battlefield, you may return target land card from your graveyard to your hand.
+~~~~~~~~
+Horned Cheetah {3}{G}{G} (uncommon)
+Creature ~ Cat (4/4)
+Trample
+Morph {1}{G}{G}
+~~~~~~~~
+Lull {5}{G} (uncommon)
+S
+Each player may draw up to two cards. For each card less than the number of cards as you drew this way, create a 3/3 green elephant creature token.
+~~~~~~~~
+Tangle Angler {3} (uncommon)
+Artifact Creature ~ Construct (1/1)
+{T}: add {G}. Tangle Angler deals 1 damage to target creature. Activate this ability only if Tangle Angler's power is 4 or greater.
+~~~~~~~~
+Gloomhunter {2}{B} (rare)
+Creature ~ Insect Assassin (2/2)
+When Gloomhunter enters the battlefield, up to one target creature you control gains flying until end of turn.
+Whenever a zombie you control deals combat damage to a player, that player discards a card.
+~~~~~~~~
+Durkwood Strangler {2}{G} (common)
+Creature ~ Sliver (2/1)
+At the beginning of your end step, put a +1/+1 counter on Durkwood Strangler and you gain 2 life.
+~~~~~~~~
+Thrashing Mossdog {3}{G} (common)
+Creature ~ Plant Hound (2/3)
+Reach
+{4}{G}{G}: Thrashing Mossdog gains reach until end of turn.
+~~~~~~~~
+Wall Of Stone {2} (common)
+Creature ~ Juggernaut (3/3)
+Defender
+Exile an elf or black creature: put two +1/+1 counters on Wall Of Stone.
+~~~~~~~~
+Scour D'Yang (common)
+Land
+Scour D'Yang enters the battlefield tapped.
+{T}: add one mana of any color.
+{T}, sacrifice Scour D'Yang: add two mana of any one color.
+~~~~~~~~
+Craggy Moray {3}{G} (uncommon)
+Creature ~ Bird
+Flash
+Reach
+Craggy Moray enters the battlefield with a +1/+1 counter on it for each gate you control.
+~~~~~~~~
+Turn For The Living {3}{W}{G} (common)
+Sorcery
+Destroy target nonbasic land. Turn For The Living deals 12 the damage put onto that land by a creature with flying.
+~~~~~~~~
+Disorienting Glower {2}{U} (uncommon)
+Instant
+Aftermath
+Change the target of target spell or ability with a single target.
+~~~~~~~~
+Jace, Architect Of Law {2}{W} (mythic)
+Legendary Planeswalker ~ Jace ((3))
++1: look at the top card of your library. If it's a noncreature, nonland card, you may reveal it and put it into your hand.
+-2: target creature you control fights another target creature.
+-7: you get an emblem with "your opponents can't untap more than three permanents from your graveyard."
+~~~~~~~~
+Jaded Response {1}{R/W} (common)
+Instant
+Uncast target creature spell. Jaded Response deals damage equal to that spell's power to its controller.
+~~~~~~~~
+Growth Cycle {1}{G} (rare)
+Instant
+Put a -3/-2 counter on target creature. That creature gets +4/+0 until end of turn.
+~~~~~~~~
+Hypnox {3}{U}{G}{U} (rare)
+Creature ~ Djinn Wizard (4/3)
+Flying
+{T}: uncast target spell.
+~~~~~~~~
+Sangrite Surge {2}{R} (rare)
+Land
+Red creatures you control have first strike.
+Whenever a dragon you control attacks, tap target creature defending player controls.
+~~~~~~~~
+Anafenza, The Foremost {4}{U}{U}
+Legendary Artifact Creature ~ Sphinx (4/4)
+~~~~~~~~
+Scarab Harpy {2}{R} (rare)
+Creature ~ Elf Rogue (2/2)
+{T}, sacrifice Scarab Harpy: destroy target nonbasic land.
+~~~~~~~~
+Durkwood Savage {3}{G} (rare)
+Creature ~ Vampire Berserker (3/5)
+Dash {3}{G}
+~~~~~~~~
+Emrakul'S Hatcher {6}{R} (common)
+Creature ~ Eldrazi Drone (4/3)
+When Emrakul'S Hatcher enters the battlefield, create a 0/1 redeemed eldrazi spawn creature token for each creature card in your graveyard.
+~~~~~~~~
+Shelter {1}{U} (uncommon)
+Instant
+Council's dilemma ~ when Shelter enters the battlefield, starting with you, each player votes for strength or numbers. Put a +1/+1 counter on Shelter for each strength vote already cast this turn.
+~~~~~~~~
+Bazaar Trademage {3}{U} (rare)
+Creature ~ Vampire Wizard (2/2)
+Flying
+When Bazaar Trademage enters the battlefield, search your library for three cards, exile them, then shuffle your library.
+When Bazaar Trademage dies, you may put the exiled card into its owner's hand.
+~~~~~~~~
+Kentaro, First To Desire {4}{W}{W} (rare)
+Legendary Creature ~ Human Knight (2/2)
+Flying
+Double strike
+Whenever Kentaro, First To Desire deals combat damage to a player, put a +1/+1 counter on it.
+~~~~~~~~
+Brazen Scourge {1}{R/G} (common)
+Creature ~ Giant (1/1)
+Bloodthirst 3
+~~~~~~~~
+Blightspeaker {3}{B} (uncommon)
+Creature ~ Human Cleric (3/3)
+First strike
+Protection from black
+Shadow
+~~~~~~~~
+Aura Of Dominion {W}{G} (uncommon)
+Enchantment ~ Aura
+Enchant red or green creature
+Enchanted creature gets +2/+2.
+~~~~~~~~
+Pious Kitsune {3}{W}{W} (common)
+Creature ~ Fox Cleric (2/2)
+Exalted
+{W}, {T}: tap target creature.
+~~~~~~~~
+Wall Of Shadows {1}{B}{B} (rare)
+Creature ~ Wall (1/1)
+Defender{B}{B}
+~~~~~~~~
+Sanctified Charge {1}{W} (uncommon)
+Enchantment
+When an opponent casts a white spell, Sanctified Charge gets +2/+2 until end of turn.
+Whenever Sanctified Charge enters the battlefield or attacks, you may pay {W}. If you do, you gain 2 life.
+{2}{W}: tap target creature.
+~~~~~~~~
+Wild Mammoth {3}{R/G} (uncommon)
+Creature ~ Wurm (5/5)
+~~~~~~~~
+Kraken Net {3} (uncommon)
+Artifact
+At the beginning of your upkeep, you gain 1 life for each land you control.
+{3}: target land becomes a plains in addition to its other types.
+~~~~~~~~
+Shivan Harvest {2}{G/U}{G/U} (common)
+Sorcery
+As an additional cost to cast this spell, sacrifice a creature.
+Search your library for a creature card with converted mana cost equal to 1 plus the sacrificed creature's converted mana cost, put that card onto the battlefield with an additional +1/+1 counter on it, then shuffle your library.
+~~~~~~~~
+Vexangler Of Secrets {2}{U} (rare)
+Creature ~ Human Wizard (3/3)
+You have hexproof and hexproof.
+~~~~~~~~
+Despair {4}{B}{B} (uncommon)
+Sorcery
+Aftermath
+Afterlife 2
+~~~~~~~~
+Dronepack Kindred {2}{G}{G}{W} (common)
+Creature ~ Treefolk Warrior (7/6)
+Trample
+{4}{G}: Dronepack Kindred gets +2/+2 until end of turn.
+~~~~~~~~
+Rootwater Commando {2}{G} (uncommon)
+Creature ~ Merfolk Ally (2/1)
+Whenever Rootwater Commando attacks, put a +1/+1 counter on another target merfolk you control.
+Tap five untapped merfolk you control: untap Rootwater Commando. It gains trample until end of turn.
+~~~~~~~~
+Tahngarth'S Rage {2}{R}{R} (mythic)
+Instant
+Choose one ~
+= Tahngarth'S Rage deals 3 damage to target creature.
+= Destroy target artifact.
+= Each creature deals 1 damage to its controller.
+~~~~~~~~
+Barrin'S Staticaster {6} (rare)
+Creature ~ Human Wizard (3/7)
+{T}: Barrin'S Staticaster deals damage equal to its toughness to target creature.cUt it up and return it to its owner's hand.
+~~~~~~~~
+Captivating Gyre {U/B} (uncommon)
+Creature ~ Wizard (1/1)
+You may tap or untap target creature. Then that creature's controller reveals their hand. Create a colorless treasure creature token for each swamp you control.
+~~~~~~~~
+Phyrexian Marauder {0} (rare)
+Artifact Creature ~ Construct (1/1)
+Phyrexian Marauder attacks each combat if able.
+Phyrexian Marauder gets +2/+0 as long as you control another artifact.
+~~~~~~~~
+Saproling Symbiont {5}{G} (common)
+Artifact Creature ~ Faerie Artificer (4/4)
+Flash
+When Saproling Symbiont enters the battlefield, another target artifact you control gains "{T}: add one mana of any color."
+~~~~~~~~
+Glorifier Of The Lost {1}{W} (rare)
+Creature ~ Cat Cleric (2/2)
+{1}{W}, exile Glorifier Of The Lost from your graveyard: search your library for a white card with converted mana cost 3 or less and put it onto the battlefield. Then shuffle your library.
+~~~~~~~~
+Scouring Mercenary {4}{B} (common)
+Creature ~ Human Mercenary (3/3)
+Scouring Mercenary must be blocked if able.
+Raid ~ {1}{B}: Scouring Mercenary gets +2/+1 until end of turn.
+~~~~~~~~
+Viashino Ransacker {6}{R}{G}{R}{R} (uncommon)
+Legendary Creature ~ Viashino Warrior (7/5)
+Flash
+Haste
+~~~~~~~~
+Djinn Of The Lamp {7} (mythic)
+Artifact Creature ~ Djinn Wizard (4/5)
+Flying
+Hexproof
+Spells and abilities your opponents control with hexproof can't be uncasted.
+~~~~~~~~
+Deathmark Souleess {1}{B} (uncommon)
+Creature ~ Zombie Berserker (2/3)
+When Deathmark Souleess dies, create a 3/2 colorless eldrazi horror creature token.
+Delirium ~ Deathmark Souleess is a survivor of xenagos's hand who was destroyed this way.
+~~~~~~~~
+Cave Of Temptation (rare)
+World Land
+Black creatures can't attack lands.
+~~~~~~~~
+Kiki-Jiki, Mirror Breaker {3}{G/P} (rare)
+Legendary Creature ~ Human Shaman (0/2)
+{T}: choose target creature you control. Whenever that creature deals combat damage to one or more targets of the chosen color, tap target creature. That creature doesn't untap during its controller's next untap step. Activate this ability only before the end of combat.
+~~~~~~~~
+Pewter Golem {2} (common)
+Artifact Creature ~ Golem (2/2)
+When Pewter Golem dies, draw a card.
+~~~~~~~~
+Sea Troll {3}{U}{U} (uncommon)
+Creature ~ Serpent (0/4)
+Flash
+Defender
+When Sea Troll enters the battlefield, you get {E}{E}{E}{E} .
+{U}, pay {E}: Sea Troll gets +2/-2 until end of turn.
+~~~~~~~~
+Flaring Flame {1}{R} (common)
+Sorcery
+This spell costs {1} less to cast if you control a wizard.
+Flaring Flame deals 3 damage to any target.
+~~~~~~~~
+Knight Of The Gomorred Feast {2}{W} (common)
+Creature ~ Human Knight (2/2)
+Flanking
+{X}: until end of turn, Knight Of The Gomorred Feast becomes the color of your choice.
+~~~~~~~~
+Gruul Signet {4}{G} (uncommon)
+Artifact
+When Gruul Signet enters the battlefield, put a +1/+1 counter on each creature.
+Each creature you control with a +1/+1 counter on it has trample.
+Whenever a +1/+1 creature enters the battlefield under your control, you gain 1 life for each +1/+1 counters on it.
+~~~~~~~~
+
+
+You gain X strength and life.
+~~~~~~~~
+Chorus Of Might {R} (common)
+Instant
+Cycling {2}
+Madness {1}{R}
+Target creature gets +1/+0 and gains haste until end of turn.
+~~~~~~~~
+Wild Guess {2}{G} (uncommon)
+Sorcery
+Draw a card. If you control a zombie, you may draw a card.
+~~~~~~~~
+Lulling Prowess {U} (common)
+Sorcery ~ Arcane
+Look at the top four cards of your library, then put them back in any order. You may shuffle your library.
+Draw a card at the beginning of the next turn's upkeep.
+~~~~~~~~
+Skirsdag Supplicant {2}{R/G} (common)
+Creature ~ Human Spellshaper (1/1)
+{2}{G}, {T}, discard a card: each player not touched by two or more goblins deals 1 damage to their hand.
+~~~~~~~~
+Dark Withering {1}{B} (common)
+Sorcery
+As Dark Withering enters the battlefield, choose an opponent.
+Target player discards a card.
+Discard a card: Dark Withering gets +1/+0 until end of turn.
+~~~~~~~~
+Pitiless Hordemate {2}{R} (common)
+Creature ~ Minotaur Rogue (1/1)
+{3}{R}: Pitiless Hordemate gets +2/+0 until end of turn.
+{2}{R}: Pitiless Hordemate gains haste until end of turn.
+~~~~~~~~
+Tainted Ground {2}{B} (uncommon)
+Enchantment
+At the beginning of each opponent's upkeep, Tainted Ground deals damage to that player equal to the number of swamps they control.
+~~~~~~~~
+Sage'S Row Savant {2}{W} (uncommon)
+Creature ~ Hokori (2/2) ((4))
+Whenever you cast an enchantment spell, you may draw a card.
+~~~~~~~~
+Chain Of Plasma {3}{R} (common)
+Sorcery
+Chain Of Plasma deals 3 damage to any target. Then that player or that permanent's controller may pay {R}{R}{R}. If the player does, they may copy this spell and may choose a new target for that copy.
+~~~~~~~~
+Kill Shot {1}{W} (common)
+Instant
+Exile target attacking creature.
+~~~~~~~~
+Scatter Arc {1}{R} (common)
+Sorcery
+Return target creature card from your graveyard to your hand.
+~~~~~~~~
+Oath Of Lim-Dul {2}{B} (uncommon)
+Enchantment
+At the beginning of your upkeep {1}, pay 2 life.
+At the beginning of your end step, untap Oath Of Lim-Dul.
+{B}, sacrifice Oath Of Lim-Dul: it deals 2 damage to any target.
+~~~~~~~~
+Stromkirk Mentor {1}{B} (uncommon)
+Creature ~ Human Rogue (1/3)
+Haste
+{T}: until end of turn, target black or red creature gains haste and vampires you control have base power and toughness 0/2.
+~~~~~~~~
+Goblin Bazaar {4}{R} (common)
+Enchantment
+{R}, {T}: search your library for a giant creature card and put it onto the battlefield. Then shuffle your library. That creature attacks this turn if able.
+~~~~~~~~
+Angrath, Minotaur Oaf {3}{R} (uncommon)
+Legendary Planeswalker ~ Angrath
++2: draw two cards.
+-X: Angrath, Minotaur Oaf deals X damage divided as you choose among any number of target creatures.
+-^^: Angrath, Minotaur Oaf deals X damage to target creature. If X is returned as a sorcery card instead of as any other type, the damage dealt this way can't be prevented.
+-7: Angrath, Minotaur Oaf deals 7 damage to each opponent and each creature your opponents control.
+~~~~~~~~
+Krark-Clan Grunt {4}{R} (common)
+Creature ~ Goblin (2/1)
+Sacrifice a goblin: target creature gets +2/+2 until end of turn.
+~~~~~~~~
+Bone Sawer {2}{B} (common)
+Artifact Creature ~ Horror (3/3)
+{X}, {T}: Bone Sawer deals X damage to target attacking or blocking creature. Activate this ability only during the declare blockers step.
+~~~~~~~~
+Quirion Dryad {2}{G} (uncommon)
+Creature ~ Dryad (3/4)
+When Quirion Dryad enters the battlefield, put the top two cards of your library into your graveyard.
+Whenever one or more land cards are put into your graveyard from your library, draw a card.
+~~~~~~~~
+Lancer Whelp {3}{G}{G} (common)
+Creature ~ Elf Warrior (3/3)
+Whenever a beast enters the battlefield under your control, you may have Lancer Whelp deal 5 damage to that creature.
+~~~~~~~~
+Zahid, The Scourge Stalker {5}{W} (rare)
+Legendary Creature ~ Human Warrior (3/1)
+All morph costs cost {2} more.
+~~~~~~~~
+Crown Of Awe {W} (uncommon)
+Enchantment ~ Aura
+Enchant creature you control
+Enchanted creature can't be blocked except by creatures with flying.
+Enchanted creature gets +0/+2 as long as an opponent controls a white or blue permanent.
+~~~~~~~~
+Thicket Basilisk {5}{G} (rare)
+Creature ~ Basilisk (5/5)
+{G}{G}, {T}: regenerate target creature.
+~~~~~~~~
+Dwarven Weapons {3} (common)
+Artifact
+{T}: untap target artifact.
+~~~~~~~~
+Sandcrafter Mage {3}{G} (uncommon)
+Creature ~ Elf Scout Ally (3/2)
+Menace
+Snowwalk
+Whenever Sandcrafter Mage attacks, you get {E}{E} , then you may pay {E}{E}{E}{E}. If you do, reveal the top five cards of your library. You may put a land card from among them onto the battlefield. Put the rest into your hand.
+~~~~~~~~
+Fireblade Artist (common)
+Creature ~ Human Wizard (1/1)
+When Fireblade Artist enters the battlefield, destroy all curses attached to it.
+~~~~~~~~
+Wonder {2}{U}{U} (mythic)
+Sorcery
+Each player exiles all cards from their hand face down and draws that many cards.
+If a player would assemble all their hand cards into a single giant card, they reveal that card, put it onto the battlefield, then shuffle their deck.
+~~~~~~~~
+Bloodmad Vampire {2}{R}{B}{R} (common)
+Creature ~ Vampire (6/3)
+Bloodthirst 3
+Flying
+~~~~~~~~
+Rakish Necromancer {5}{U}{R} (rare)
+Creature ~ Djinn Wizard (3/5)
+When Rakish Necromancer enters the battlefield, if you cast it from your hand, return all zombie card in all graveyards to their owners' hands.
+When Rakish Necromancer leaves the battlefield, return the cards in your hand with the same name as the exiled card to their owners' hands.
+{B}, sacrifice Rakish Necromancer: return the card with removed cards put into your graveyard to its owner's hand.
+~~~~~~~~
+Rootwater Scuttler {4}{U} (common)
+Creature ~ Kraken (3/2)
+Rootwater Scuttler can't attack or block unless you tap an untapped creature you control not declared as an attacking or blocking creature this combat.
+~~~~~~~~
+Cerulean Efreet {B}{B} (rare)
+Creature ~ Faerie Rogue (1/2)
+Flash
+Flying
+When Cerulean Efreet enters the battlefield, exile target spell with converted mana cost 4 or less.
+When Cerulean Efreet leaves the battlefield, the exiled card's owner may cast that card without paying its mana cost.
+~~~~~~~~
+ {4}{B}{U}
+Legendary
+Flying
+{T}: reveal each creature card in your hand.  enters the battlefield with x +1/+1 counters on it.
+~~~~~~~~
+Teleport {U}{U} (common)
+Instant
+Cast this spell only during combat.
+Return target creature to its owner's hand.
+~~~~~~~~
+ {2}{U}{U} (rare)
+Sorcery
+Target player draws three cards, then puts the top three cards of their library into their graveyard.
+~~~~~~~~
+Entreat The Dead {4}{G} (uncommon)
+Instant
+Until end of turn, creatures you control get +3/+3 and gain trample and infect.
+~~~~~~~~
+Dispense Disorder {3}{U} (uncommon)
+Creature ~ Kraken (6/4)
+Shroud
+When Dispense Disorder deals combat damage, return it to its owner's hand.
+~~~~~~~~
+Wingmate Roc {6}{W} (rare)
+Creature ~ Angel (3/3)
+Flying
+Protection from white
+When Wingmate Roc dies, put a +1/+1 counter on each creature with flying you control.
+~~~~~~~~
+Overgrown Tomb {1}{G} (uncommon)
+Sorcery
+Target creature gets +2/+4 until end of turn.
+Landfall ~ if you had a land enter the battlefield under your control this turn, that creature gets +4/+4 until end of turn instead.
+~~~~~~~~
+Jubilant Drake {1}{U} (common)
+Creature ~ Bird (2/1)
+{2}{U}, {T}: return target bird to its owner's hand.
+~~~~~~~~
+Marshmist Titan {2}{B}{B} (rare)
+Creature ~ Zombie (4/5)
+Afflict 3
+Whenever Marshmist Titan deals combat damage to a player, tap all lands they control. That player adds {B}{B}{B}.
+~~~~~~~~
+Stern Constable {2}{W} (common)
+Creature ~ Human Cleric (1/2)
+{T}: prevent the next 1 damage that would be dealt to any target this turn.
+~~~~~~~~
+Bombard {1}{R} (uncommon)
+Enchantment ~ Aura
+Enchant creature
+At the beginning of your upkeep, you may put a fuse counter on Bombard.
+When enchanted creature dies or is put into a graveyard from the battlefield, Bombard deals X damage to any target, where X is the number of fuse counters on it.
+
+~~~~~~~~
+Nissa'S Expedition {5}{B} (common)
+Sorcery
+Sketch two cards, then draw cards equal to the number of cards that shares a color with the spellshaper skill of your choice.
+~~~~~~~~
+Stensia Masquerade {1}{R/W} (common)
+Instant
+Flashback {3}{R}{R}
+Target creature gets +3/+0 and gains first strike and haste until end of turn.
+~~~~~~~~
+Nagging Thoughts {2}{U} (rare)
+Creature ~ Human Rogue (3/2)
+Whenever you surveil, put a +1/+1 counter on Nagging Thoughts.
+As long as Nagging Thoughts is untapped, a creature you control has spy.
+When Nagging Thoughts dies, proliferate.
+~~~~~~~~
+Soul'S Fierce {1}{B} (common)
+Sorcery
+Destroy target creature with power 3 or greater. Scry 1.
+~~~~~~~~
+Altar'S Reap {1}{W}{W} (rare)
+Instant
+Exile target creature. It can't be regenerated. Return up to one target creature card from your graveyard to your hand. Exile Altar'S Reap.
+~~~~~~~~
+Call For Unity {G} (uncommon)
+Enchantment
+Buyback {4}
+Return Call For Unity to its owner's hand: put a +1/+1 counter on target creature.
+~~~~~~~~
+Wound Reflection {2}{R} (common)
+2 Instant
+Wound Reflection deals 7 or less damage to target opponent or planeswalker.
+~~~~~~~~
+Waxmane Griffin {3}{B} (common)
+Creature ~ Human Cleric Ally (2/2)
+{T}: put the top three cards of your library into your graveyard. Target opponent gains control of a nonland permanent with a name originally printed in the homeward binding.
+~~~~~~~~
+Exiled Canadian Lich {2}{B} (rare)
+Creature ~ Human Warrior (2/2)
+Flash
+Afflict 1
+Whenever a player casts a spell, each other player loses 1 life.
+~~~~~~~~
+Windstorm Toprescooper {4}{U} (uncommon)
+Creature ~ Bird Archer (3/2)
+Flying
+Players can block as though they were untapped.
+~~~~~~~~
+Stinkdrinker Daredevil {1}{R}{R} (common)
+Creature ~ Goblin Shaman (2/2)
+Kinship ~ at the beginning of your upkeep, you may look at the top card of your library. If it shares a creature type with Stinkdrinker Daredevil, you may reveal it. If you do, each player discards their hand, then draws four cards.
+~~~~~~~~
+Daring Lancer {4} (mythic)
+Artifact ~ Vehicle (2/2)
+Flying
+Crew 1
+At end of combat, if Daring Lancer attacked or kicked, it deals 3 damage to each target.
+~~~~~~~~
+Uncontrolled Infestation {3}{R} (uncommon)
+Enchantment ~ Aura
+Enchant nonbasic land
+Uncontrolled Infestation enters the battlefield with four level counters on it.
+Remove a level counter from Uncontrolled Infestation: add {C}.
+{2}, {T}: scry 1.
+
+~~~~~~~~
+Brawl {2}{R} (common)
+Sorcery
+Brawl deals 5 damage to target creature at end of combat.
+~~~~~~~~
+Gifts Given {3}{G} (uncommon)
+Enchantment
+Discard a card: you gain 1 life for each elf card in your graveyard.
+~~~~~~~~
+Surge Of Zeal {1}{W} (uncommon)
+Instant
+Target creature that attacked or blocked this turn gets +2/+2 until end of turn.
+~~~~~~~~
+Spitting Centipede {2}{G} (uncommon)
+Creature ~ Snake Berserker (2/1)
+When Spitting Centipede enters the battlefield, target creature gets +1/+1 until end of turn.
+~~~~~~~~
+Runic Repetition {W} (rare)
+Instant ~ Trap
+You may put a permanent card with converted mana cost 1 or less from your hand without paying its mana cost.
+~~~~~~~~
+Shifting Loyalties {4}{U} (uncommon)
+Sorcery
+Exchange control of all artifact and enchantment cards in your graveyard.
+~~~~~~~~
+Kithkin Harbinger {2}{W}{W} (uncommon)
+Creature ~ Kithkin Wizard (2/2)
+When Kithkin Harbinger enters the battlefield, you may search your library for a kithkin card, reveal it, then shuffle your library and put that card on top of it.
+~~~~~~~~
+Soul Of Ash {2}{R} (common)
+Creature ~ Elemental (2/2)
+As long as you control an ash, Soul Of Ash has first strike and lifelink.
+~~~~~~~~
+Carrion Wurm {5}{B} (common)
+Creature ~ Zombie Wurm (6/6)
+~~~~~~~~
+Kor Castigator {2}{R}{R} (rare)
+Creature ~ Kor Wizard (4/4)
+Haste
+At the beginning of your upkeep, if you have more cards in hand than each opponent, you may sacrifice Kor Castigator. If you do, create a 1/1 red goblin creature token with haste.
+When Kor Castigator dies, it deals 1 damage to any target.
+~~~~~~~~
+
+ ~ Centaur (1/3)
+~~~~~~~~
+Dwarven Scorcher {2}{R} (common)
+Creature ~ Dwarf (3/3)
+Dwarven Scorcher has double strike as long as you control a creature with double strike.
+Dwarven Scorcher has menace as long as you control a creature with double strike.
+~~~~~~~~
+Oasis {2}{W} (rare)
+Enchantment
+As Oasis enters the battlefield, you may pay 2 life. If you don't, it enters the battlefield tapped.
+~~~~~~~~
+Wonder {2}{U} (common)
+Creature ~ Faerie Soldier (3/1)
+Flying
+When Wonder enters the battlefield, look at target player's hand.
+~~~~~~~~
+Deathbringer Liege {4}{B/R}{B/R} (rare)
+Creature ~ Demon (6/6)
+Flying
+Trample
+Whenever a creature dealt damage by Deathbringer Liege this turn dies, put a +1/+1 counter on Deathbringer Liege.
+Whenever Deathbringer Liege deals combat damage to a player, that player sacrifices a creature.
+~~~~~~~~
+Scrounger {3}{C} (rare)
+Artifact Creature ~ Construct (2/3)
+Whenever one or more tokens enter the battlefield under your control, Scrounger deals 1 damage to any target.
+{3}{C}: put the top two cards of your library into your graveyard.
+~~~~~~~~
+Satyr Hedonist {1}{G} (common)
+Creature ~ Satyr (2/2)
+When Satyr Hedonist enters the battlefield, target opponent loses 2 life and you gain 2 life.
+~~~~~~~~
+Garruk The Explorer {1}{U}{R} (rare)
+Legendary Creature ~ Shapeshifter (0/4)
+Trample
+{1}, {T}: exile another target creature you control. Return it at random at random, then discard a card.
+{2}{G}, {T}: create a 2/2 green wolf creature token.
+~~~~~~~~
+Cunning Instantiator {2}{U}{U} (common)
+Creature ~ Human Wizard (2/3)
+Whenever you cast an instant or sorcery spell and who targets it at end of combat, you may tap target creature.
+~~~~~~~~
+Merfolk Traders {1}{U} (uncommon)
+Creature ~ Merfolk (0/2)
+{T}: choose target attacking or blocking creature whose controller controls an island. Merfolk Traders deals 2 damage to that creature at end of combat. Activate this ability only before the end of combat step.
+~~~~~~~~
+Lunarch Inquisitors {4}{R} (uncommon)
+Creature ~ Human Cleric (2/2)
+Whenever Lunarch Inquisitors blocks an attacking creature, Lunarch Inquisitors gets +1/+0 until end of turn. That creature gets an additional +1/+0 until end of turn for each artifact blocking that creature.
+~~~~~~~~
+Sun-Blessed Panther {2}{R} (uncommon)
+Creature ~ Dinosaur (3/1)
+Flash
+Trample
+~~~~~~~~
+Underworld Dreams {2}{U}{B} (rare)
+Enchantment ~ Saga
+I ~ search your library for a legendary creature card, reveal it, put it into your hand, then shuffle your library. Its controller may put that card onto the battlefield.
+~~~~~~~~
+Lava Tubes (uncommon)
+Land
+Lava Tubes doesn't untap during your untap step if it has a depletion counter on it.
+At the beginning of your upkeep, remove a depletion counter from Lava Tubes.
+{T}: add {B} or {R}. Put a depletion counter on Lava Tubes.
+
+~~~~~~~~
+Vandalize {1}{R} (uncommon)
+Sorcery
+Destroy target artifact. Vandalize deals 1 damage to that artifact's controller.
+~~~~~~~~
+Lonely Sandbar (common)
+Land
+Domain ~ Lonely Sandbar enters the battlefield with a bounty counter on it for each basic land type among lands you control.
+Domain ~ at the beginning of your upkeep, remove a bounty counter from Lonely Sandbar.
+When Lonely Sandbar leaves the battlefield, put a bounty counter on each creature your opponents control with a bounty counter on it.
+
+~~~~~~~~
+Herald'S Horn {W}{G} (uncommon)
+Enchantment
+Whenever a creature you control with a +1/+1 counter on it attacks, you may draw a card.
+~~~~~~~~
+
+
+

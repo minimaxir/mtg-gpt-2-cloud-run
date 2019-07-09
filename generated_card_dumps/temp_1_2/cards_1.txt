@@ -1,0 +1,947 @@
+Soulblade Corrupter {3}{W} (uncommon)
+Creature ~ Human Shaman (2/2)
+Flash
+When Soulblade Corrupter enters the battlefield, target creature you control gains protection from the color of your choice until end of turn.
+~~~~~~~~
+Prototype {6} (rare)
+Artifact Creature ~ Construct (6/6)
+Morph {3}
+When Prototype is turned face up, it becomes the creature type of your choice.
+~~~~~~~~
+Seaside Haven (common)
+Land ~ Plains Island
+Cycling {U}
+Seaside Haven enters the battlefield tapped.
+{T}: add {U}.
+~~~~~~~~
+Wojek Partisan (mythic)
+Creature (3/3)
+Menace
+When Wojek Partisan enters the battlefield, you may destroy up to three target nonbasic lands. For each land put into a graveyard this way, you may pay {1}{R} or {3}{R}. If you do, destroy up to three target lands.
+~~~~~~~~
+Pewter Golem {2}{W} (common)
+Creature ~ Golem (2/3)
+Whenever Pewter Golem becomes blocked, defending player puts the top three cards of their library into their graveyard.
+~~~~~~~~
+Jorubai, Soul Paraleer {1}{U}{U} (common)
+Legendary Creature ~ Human Rogue (0/4)
+Whenever Jorubai, Soul Paraleer attacks, you may put the top creature card of defending player's graveyard onto the battlefield under your control.
+~~~~~~~~
+Viper Familiar {1}{U} (common)
+Creature ~ Shapeshifter (1/2)
+As long as you control a faerie, Viper Familiar gets +1/+2 and has flying.
+~~~~~~~~
+ {2}{B}{B}{B}
+Sorcery
+As an additional cost to cast this spell, sacrifice five lands.
+Destroy target land.
+~~~~~~~~
+Temper {G}{G} (uncommon)
+Enchantment
+Attacking creatures you control get +2/+2.
+~~~~~~~~
+Coma Veil {3}{U}{G} (rare)
+Enchantment
+Imprint ~ when Coma Veil enters the battlefield, you may exile target land you control.
+Whenever a land with the same name as the exiled card is tapped for mana, its controller adds one mana of any type that land produced.
+~~~~~~~~
+Roiling Terrain {5}{R} (rare)
+Creature ~ Elemental (4/4)
+Trample
+Players can't lose the game.
+~~~~~~~~
+Chorus Of The Conclave {2}{R}{R}{2/G} (rare)
+Enchantment
+Nonbasic lands are mountains.
+~~~~~~~~
+Blinding Souleater {5} (uncommon)
+Artifact Creature ~ Golem (3/3)
+{3}: switch Blinding Souleater's power and toughness until end of turn.
+~~~~~~~~
+Nissa, Sage Animist {3}{G} (mythic)
+Legendary Planeswalker ~ Nissa ((20+ands))
+When Nissa, Sage Animist enters the battlefield, put two -1/-1 counters on target creature or planeswalker you control.
+Nissa, Sage Animist can't attack or block unless you pay {1} for each -1/-1 counter on it.
+~~~~~~~~
+Tendrils Of Corruption {5}{G} (rare)
+Sorcery
+Flashback {10}{B}
+Search your library for a color swap card and put it onto the battlefield. Then shuffle your library.
+~~~~~~~~
+Zhang He, Wei General {W/U}{W/U} (common)
+Creature ~ Human Soldier (2/1)
+Horsemanship
+~~~~~~~~
+Spinal Manipulator {2}{U}{U} (common)
+Creature ~ Human Wizard (2/2)
+{T}: draw a card, then discard a card. If a land card is discarded this way, untap Spinal Manipulator, then transform it.
+~~~~~~~~
+Ambassador Laquatus {3}{U} (common)
+Creature ~ Human Artificer (3/3)
+When Ambassador Laquatus enters the battlefield, create a1/1 colorless thopter artifact creature token with flying.
+{R}, sacrifice an artifact: target artifact creature gets +1/+0 until end of turn is discarded.
+~~~~~~~~
+Sandsower {4}{U} (rare)
+Creature ~ Giant (4/4)
+Whenever a giant attacks, you may return another target creature you control to its owner's hand.
+~~~~~~~~
+Soilshaper {2}{U}{W/U} (rare)
+Creature ~ Merfolk Wizard (2/2)
+You may choose not to untap Soilshaper during your untap step.
+{T}: for as long as Soilshaper remains tapped, target tapped creature doesn't untap during its controller's untap step, and at the beginning of each of your draw steps, put a -1/-1 counter on that creature. When Soilshaper leaves the battlefield or becomes untapped, remove all -1/-1 counters from the creature.
+~~~~~~~~
+Wildest Dreams {2}{G} (uncommon)
+Sorcery
+Reveal cards from the top of your library until you reveal a nonland card, then put all cards revealed this way revealed this way into your hand. Search your library for a creature card, reveal it, put it into your hand, then shuffle your library.
+~~~~~~~~
+Curse Of The New Moon {1}{B} (rare)
+Enchantment
+As Curse Of The New Moon enters the battlefield, choose a different color.
+Whenever a player casts a spell of the chosen color and a color that shares a color with the chosen color, that player loses 1 life at the beginning of the next end step.
+~~~~~~~~
+Stormfront Pouncer {5}{R} (uncommon)
+Creature ~ Elemental Warrior
+Dash {2}{R/G}{R/G}
+When Stormfront Pouncer enters the battlefield, you may have it deal 2 damage to target creature with flying.
+~~~~~~~~
+Kami'S Sanctum {3}{W}{W} (rare)
+
+Exile all nontoken permanents. Starting with you, each player chooses one of the exiled cards and puts it onto the battlefield tapped under their control. Repeat this process until all cards exiled this way have been chosen.
+~~~~~~~~
+Fire Djinn {3}{R}{R} (uncommon)
+Creature ~ Djinn (3/1)
+Flying
+{2}{R}, discard a card: Fire Djinn gets +2/+0 until end of turn.
+~~~~~~~~
+Spined Thopter {4} (uncommon)
+Artifact Creature ~ Construct (1/1)
+Flying
+Spined Thopter enters the battlefield with two +1/+1 counters on it.
+If damage would be dealt to Spined Thopter, prevent that damage. Remove a +1/+1 counter from Spined Thopter.
+~~~~~~~~
+Angelic Skirmisher {2}{W}{B} (rare)
+Creature ~ Human Cleric (3/3)
+Flying
+Double strike
+Whenever Angelic Skirmisher deals combat damage to a player, put a +1/+1 counter on it.
+~~~~~~~~
+Wipe Away {2}{U}{B} (uncommon)
+Instant
+Split second
+Cycling {2}
+Shuffle all creature cards from target player's graveyard into that player's library.
+~~~~~~~~
+Ajani'S Stampede {5}{W} (uncommon)
+Instant
+You gain 2 life for each creature on the battlefield.
+~~~~~~~~
+Thundercloud Elemental {3}{U}{U} (uncommon)
+Creature ~ Elemental (5/4)
+{X}{X}: Thundercloud Elemental becomes an X/X elemental artifact creature. Sacrifice it at the beginning of the next end step.
+~~~~~~~~
+Rag Dealer {B} (common)
+Creature ~ Human Rogue (1/1)
+Sacrifice a creature: target creature gets +1/+1 until end of turn.
+~~~~~~~~
+Smite {3}{G} (common)
+Instant
+Destroy target artifact or enchantment.
+Draw a card at the beginning of the next turn's upkeep.
+~~~~~~~~
+Wall Of Mulch {2}{G} (common)
+Creature ~ Treefolk Wall (2/2)
+Defender
+{T}: put a +1/+1 counter on Wall Of Mulch.
+~~~~~~~~
+Krovikan Plague {1}{W/B}{U/R} (rare)
+Enchantment ~ Aura
+Enchant permanent
+At the beginning of your precombat main phase, add one mana of any color.
+~~~~~~~~
+Stalker Oak {1}{G} (common)
+Creature ~ Treefolk (0/2)
+Stalker Oak gets +1/+0 for each mountain you control.
+~~~~~~~~
+Gold-Forged Sentinel {2}{W} (uncommon)
+Creature ~ Kithkin (3/2)
+Vigilance
+{1}{W}{W}: prevent all damage that would be dealt to another target creature by Gold-Forged Sentinel.
+{3}{W}: put Gold-Forged Sentinel onto the battlefield attached to target creature. Activate this ability only any time you could cast a sorcery.
+~~~~~~~~
+Jace, Unraveler Of Secrets {2}{G/U}{G/U} (mythic)
+Legendary Creature ~ Human Cleric (3/3)
+{U}{G}: target creature you control gains haste until end of turn.
+{U}{G}, sacrifice a creature: you gain 2 life.
+~~~~~~~~
+Hickory Woodkin {1}{G} (uncommon)
+Creature ~ Elemental Warrior (2/2)
+Infect
+If you have no deathtouch, Hickory Woodkin gets +1/+1 and has infect.
+~~~~~~~~
+Marshwalker {4}{R} (common)
+Creature ~ Kavu (3/3)
+~~~~~~~~
+Shadow Gladiator {2}{U/B} (common)
+Creature ~ Human Samurai (3/3)
+Menace
+Megamorph {3}{U/B}
+When Shadow Gladiator is turned face up, put a +1/+1 counter on target creature.
+~~~~~~~~
+Mystic Ooze {0} (rare)
+Creature ~ Ooze (1/2)
+~~~~~~~~
+Overwhelming Might {5}{R} (common)
+Sorcery
+Target creature gets +7/+7 until end of turn.
+~~~~~~~~
+ (mythic)
+ ((4))
+~~~~~~~~
+Goblin Rabblemaster {3}{R} (common)
+Creature ~ Goblin Warrior (3/4)
+Whenever Goblin Rabblemaster blocks a creature, destroy that creature at end of combat.
+~~~~~~~~
+Kaalia Of The Vast {5}{B}{B}{B} (mythic)
+Legendary Creature ~ Avatar (6/6)
+Flying
+{X}{R}{B}, {T}: Kaalia Of The Vast deals X damage to target creature. That creature's controller draws X cards instead.
+~~~~~~~~
+Cathodion {2}{G} (rare)
+Creature ~ God (5/5)
+Indestructible
+Cathodion can't attack or block unless you have seven or more cards in hand.
+{2}{B}: draw a card.
+~~~~~~~~
+Shape Of The Wiitigo {3} (uncommon)
+Artifact
+{T}: choose a color. Target opponent exiles the top card of their library. If that card is a creature card, you may reveal it and put it into your hand.
+~~~~~~~~
+Brimstone Hound {2}{G}{R} (common)
+Creature ~ Elemental Hound (2/2)
+Trample
+Whenever Brimstone Hound attacks, it gets +2/+0 until end of turn.
+~~~~~~~~
+Righteous Fury {3}{W} (uncommon)
+Sorcery ~ Aura
+Enchant creature
+Enchanted creature gets +2/+2 for each other creature on the battlefield that shares a creature type with it.
+~~~~~~~~
+Elvish Soultiller {4}{G}{G} (rare)
+Legendary Creature ~ Cat Spirit (2/2)
+Elvish Soultiller enters the battlefield with ten divinity counters on it.
+At the beginning of your upkeep, put a divinity counter on Elvish Soultiller.
+{1}{W}, remove a divinity counter from Elvish Soultiller: destroy all nontoken creatures. They can't be regenerated.
+
+~~~~~~~~
+Lone Missionary {1}{W} (common)
+Creature ~ Dwarf Artificer (2/1)
+{W}: Lone Missionary gains vigilance until end of turn.
+{B}: Lone Missionary gains deathtouch until end of turn.
+{W}{B}: Lone Missionary gets +1/+0 until end of turn.
+~~~~~~~~
+Blinkmoth Urn {5} (rare)
+Artifact ~ Equipment
+Equip {5}
+Indestructible
+Equipped creature is a human warriortype.
+As long as equipped creature is Blinkmoth Urn, it has menace.
+~~~~~~~~
+Possessed Skaab {3}{U/B} (uncommon)
+Creature ~ Elemental (5/5)
+Morph {UU^^^^
+UU^^UU}
+When Possessed Skaab is turned face up, you may put target creature on the bottom of its owner's library.
+~~~~~~~~
+Carnage Wurm {2}{B} (uncommon)
+Creature ~ Wurm (0/4)
+Trample
+Tap an untapped red creature you control: Carnage Wurm gets +X/+0 until end of turn, where X is the power of the creature tapped this way.
+~~~~~~~~
+Unlicensed Disintegration {1}{B} (common)
+Enchantment ~ Aura
+Enchant artifact
+When Unlicensed Disintegration enters the battlefield, put a +1/+1 counter on target creature you control.
+Enchanted artifact has block 1.
+~~~~~~~~
+
+ (0/2)
+{1}{W}, {T}:  deals X damage to target attacking or blocking creature, where X is the number of nontoken pirates you control.
+~~~~~~~~
+
+Land
+{T}: add {C}.
+{T}: untap target attacking creature an opponent controls. When that creature dies this turn, create a black grim reading
+~~~~~~~~
+Sadistic Sacrament {2}{B} (common)
+Sorcery
+Target player sacrifices a creature or planeswalker.
+Delirium ~ if there are four or more card types among cards in your graveyard, instead that player sacrifices a creature and a planeswalker.
+~~~~~~~~
+Dromar'S Attendant {5} (rare)
+Artifact ~ Golem (2/2)
+{X}, {T}, sacrifice Dromar'S Attendant: destroy all untapped islands.
+~~~~~~~~
+Lava Hounds {6}{R}{R} (common)
+Creature ~ Giant Warrior (3/2)
+Bloodthirst X
+~~~~~~~~
+Royal Larcen {U} (common)
+Creature ~ Human Knight (2/1)
+Flying
+Exalted
+~~~~~~~~
+Death Wardens {2}{W/B}{W/B} (uncommon)
+Creature ~ Human Cleric (3/3)
+{W/B}{W/B}{W/B}{W/B}{W/B}: target creature dies this turn.
+~~~~~~~~
+Rakdos Cackler {B}{B} (rare)
+Creature ~ Vampire (3/3)
+Flying
+As you cast spells from your hand, you may sacrifice an artifact. If you don't, each opponent discards their hand.
+~~~~~~~~
+Barrow Hag {5}{B} (rare)
+Creature ~ Giant Assassin (3/3)
+{1}{B}, sacrifice another creature: you draw two cards and you lose 2 life.
+~~~~~~~~
+Treasonous Ogre {1}{R}{R} (rare)
+Creature (3/3)
+At the beginning of combat on your turn, reveal the top card of your library. If a card revealed this way would deal damage to you this turn, prevent that damage. Create a 1/1 red devil creature token for each card revealed this way.
+~~~~~~~~
+Unexpected Results {3}{U/B} (rare)
+Sorcery
+Look at the top three cards of target opponent's library. Put all of them into that player's graveyard and the rest into that player's hand. Then that player shuffles their library.
+~~~~~~~~
+Fade Into Antiquity {1}{G}{G} (common)
+Sorcery
+Put target card from your graveyard on the bottom of your library. Prevent all damage that would be dealt to that card this turn.
+~~~~~~~~
+Herald Of Dromoka {2}{U} (rare)
+Creature ~ Bird (2/2)
+Flying
+Other bird creatures have flying.
+Other soldier creatures have flying.
+~~~~~~~~
+Nahiri, Sage Lifecraft {5}{U} (uncommon)
+Legendary Planeswalker ~ Nahiri ((3))
++2: scry 1. Nahiri, Sage Lifecraft deals 1 damage to each opponent who doesn't cast a spell during that player's next turn.
+~~~~~~~~
+Necrogen Scour {4}{B/R} (uncommon)
+Enchantment
+Target creature's controller discards a card at random.
+~~~~~~~~
+Scrivener {1}{U} (common)
+Creature ~ Human Knight (2/1)
+Flanking
+{U}, sacrifice Scrivener: uncast target spell or ability that targets you or a creature you control.
+~~~~~~~~
+The Fallen (rare)
+Legendary Land
+{T}: add {R}.
+Sacrifice The Fallen: add {R}.
+{R}{R}: The Fallen becomes a 1/1 red and white soldier artifact creature with double strike until end of turn.
+~~~~~~~~
+Cathar'S Shield {W} (common)
+Enchantment ~ Aura
+Enchant creature
+Enchanted creature gets +1/+1 and has protection from enchantments.
+~~~~~~~~
+Ajani, The Greathearted {1}{R}{W} (mythic)
+Legendary Planeswalker ~ Ajani ((4))
++2: target creature you control gains double strike until end of turn.
++1: you gain 2 life.
+-5: whenever a creature you control deals combat damage to a player, that player~at~arms deals damage equal to the number of untapped artifacts and creatures that player controls.
+~~~~~~~~
+Skittish Scout {2}{U} (uncommon)
+Creature ~ Human Berserker (2/2)
+Vanishing 2
+When Skittish Scout enters the battlefield or leaves the battlefield, return another target land you control to its owner's hand.
+~~~~~~~~
+Wicked Pact {B} (rare)
+Instant
+The next time a source of your choice would deal damage to any target this turn, that source deals double that damage to that permanent or player instead.
+~~~~~~~~
+Hollowhead Slasher {W} (common)
+Creature ~ Dinosaur Spirit (1/1)
+{0}: the next 1 damage that would be dealt to Hollowhead Slasher unless it's a black creature token.
+~~~~~~~~
+Brothers Of The Innocent {3}{U} (uncommon)
+Creature ~ Human Warrior Ally (2/4)
+Whenever Brothers Of The Innocent or another ally enters the battlefield under your control, you may have Brothers Of The Innocent fight target creature you don't control.
+~~~~~~~~
+Callow Jushi {1}{W}{G} (common)
+Creature ~ Human Wizard (2/2)
+Pammavus creatures get +1/+1.
+{2}{G}, exile another target creature: create a 1/1 green saproling creature token.
+~~~~~~~~
+Spiteful Slaver {2}{W/B}{W/B} (rare)
+Creature ~ Sliver (3/3)
+When Spiteful Slaver enters the battlefield, put a -1/-1 counter on each creature.
+~~~~~~~~
+Stromkirk Condemned {4}{B} (common)
+Creature ~ Vampire Soldier (3/1)
+Stromkirk Condemned can't block.
+Stromkirk Condemned doesn't untap during your untap step.
+Whenever you cast a vampire spell, untap Stromkirk Condemned.
+~~~~~~~~
+Gravebane'S Mark {4}{B}{B} (uncommon)
+Artifact
+You may choose not to untap Gravebane'S Mark during your untap step.
+{3}{B}, {T}: put target creature card from a graveyard on the bottom of its owner's library. That creature is a black zombie in addition to its other colors and types.
+~~~~~~~~
+Skalla, Priest Of Lightning {3}{R}{R} (uncommon)
+Legendary Creature ~ Human Cleric (*/artificer)
+{T}: add {G} for each creature you control.
+~~~~~~~~
+Victimize {5}{W} (common)
+Sorcery
+Destroy all equipment and all enchantments.
+~~~~~~~~
+Lightning Titan {2}{R}{W}{W} (rare)
+Creature ~ Giant Shaman (3/3)
+Trample
+Whenever a creature dealt damage by Lightning Titan this turn dies, you may draw a card.
+~~~~~~~~
+Zombie Cutthroat {2}{B} (common)
+Creature ~ Aetherborn Rogue (2/4)
+Fear
+~~~~~~~~
+Shatterskull Giant {2}{R} (mythic)
+Creature ~ Giant Warrior (5/4)
+Whenever Shatterskull Giant attacks, destroy all auras attached to it.
+~~~~~~~~
+Colossal Dreadmaw {3}{G}{G} (rare)
+Creature ~ Dinosaur (1/5)
+Defender
+Whenever Colossal Dreadmaw is dealt damage, create that many 1/1 green insect creature tokens with reach and each trample.
+~~~~~~~~
+Ghastcaller {1}{G}{G}{B} (rare)
+Creature ~ Elf Shaman (2/1)
+Haste
+{T}: destroy target artifact.
+~~~~~~~~
+Wight Of Precinct Six {1}{G} (rare)
+Creature ~ Human (2/2)
+{T}: add {C}.
+{T}: add one mana of any color. If you control three or more artifacts, put four +1/+1 counters on Wight Of Precinct Six.
+At the beginning of your upkeep, scry X, where X is the number of +1/+1 counters on Wight Of Precinct Six.
+~~~~~~~~
+Scarred Kavu {1}{B/G} (uncommon)
+Creature ~ Kavu (1/2)
+~~~~~~~~
+Warrant {1}{W}{B} (rare)
+Instant
+Search your library for up to four cards with different names and reveal them. Target opponent chooses two of those cards. Put the chosen cards into your hand and the rest into your graveyard. Then shuffle your library.
+~~~~~~~~
+Ramos Of Meletis {3}{R/W}{R/W} (rare)
+Legendary Planeswalker ~ Samut ((5))
++1: up to one target creature gains double strike until end of turn.
+-1: Ramos Of Meletis deals 2 damage divided as you choose among one or two targets.
+-7: search your library for any number of rebel creature cards and put them onto the battlefield. Then shuffle your library.
+~~~~~~~~
+Raptor Hatchling {4}{W} (rare)
+Creature ~ Beast (2/1)
+Raptor Hatchling must be blocked by exactly one creature if able.
+Whenever Raptor Hatchling attacks, create X tokens that are copies of Raptor Hatchling and that are tapped and attacking, where X is the number of creatures defending player controls. Exile those tokens at end of combat. Then create two of those tokens.
+~~~~~~~~
+Cloud Sprite {U} (common)
+Creature ~ Faerie (1/1)
+Flying
+Cloud Sprite can block only creatures with flying.
+~~~~~~~~
+Thopter Foundry {2} (rare)
+Artifact
+{T}: choose any number of target creatures. Each of those creatures gains persist until end of turn.
+~~~~~~~~
+Burning Prophet {B}{B} (rare)
+Creature ~ Human Cleric (1/1)
+Haste
+{T}: each creature dealt damage by Burning Prophet this turn gets -3/-0 until end of turn.
+~~~~~~~~
+Aether Swooper {4}{U} (uncommon)
+Creature ~ Vedalken Artificer (2/2)
+Flying
+Exalted
+~~~~~~~~
+Tuknir Flyblades {1}{B}{R} (rare)
+Legendary Creature ~ Human Artificer (2/2)
+At the beginning of combat on your turn, you may discard your hand. If you do, choose a card name.
+Delirium ~ {4}{G/U}{G/U}, {T}: each player shuffles their hand and graveyard into their library, then draws seven cards.
+~~~~~~~~
+Wand Of Vertebrae {2} (rare)
+Enchantment
+{T}: attach target equipment you control to target creature you control.
+~~~~~~~~
+Shivan Emissary {2}{U} (rare)
+Creature ~ Human Wizard (1/1)
+Flying
+If a source would deal damage to you, prevent 1 of that damage.
+{3}{R}: Shivan Emissary deals 1 damage to each creature blocking or blocked by Shivan Emissary.
+~~~~~~~~
+King-Rig Captain {2}{B} (rare)
+Creature ~ Harpy Pirate Mercenary (2/1)
+Flying
+When King-Rig Captain enters the battlefield, create a colorless treasure artifact token with "{T}, sacrifice this artifact: add one mana of any color."
+~~~~~~~~
+Thran Spy {2}{U} (uncommon)
+Creature ~ Human Spellshaper Elf Artificer (0/5)
+When Thran Spy comes into play under your control, put three +1/+1 counters on target artifact you control.
+~~~~~~~~
+Vesuvan Shikari {3}{G}{G} (uncommon)
+Creature ~ Human Knight (2/4)
+Protection from artifacts
+Infect
+Unattach all equipment from target creature.
+~~~~~~~~
+Rotivore {R} (common)
+Creature ~ Zombie Rat (1/3)
+Infect
+When Rotivore dies, target land becomes a swamp. You gain 3 life.
+~~~~~~~~
+Tyrant Of Valakut {6}{R}{R} (uncommon)
+Creature ~ Elemental Knight (4/4)
+First strike
+Haste
+Parley ~ whenever Tyrant Of Valakut attacks, reveal the top card of your library. If a card with converted mana cost X or less is revealed this way, search that card and put it into your hand. Then shuffle the rest into your library.
+~~~~~~~~
+Goblin Lyre {1}{R} (common)
+Creature ~ Goblin (1/1)
+{T}: Goblin Lyre deals 1 damage to any target and 1 damage to another target.
+~~~~~~~~
+Grounded Growth {1}{U}{G} (common)
+Enchantment ~ Aura
+Enchant land
+When Grounded Growth enters the battlefield, draw a card.
+Enchanted land's controller puts the top four cards of their library into their graveyard.
+~~~~~~~~
+Cabal Shrine {2}{B} (common)
+Instant
+Target opponent discards a card.
+Draw a card at the beginning of the next turn's upkeep.
+~~~~~~~~
+Sabertooth Nishoba {1}{G}{G}{W} (rare)
+Creature ~ Cat (3/3)
+Vigilance
+While an opponent is choosing targets as part of casting a spell they control and cast that spell, that player doesn't lose the game for the rest of the game.
+~~~~~~~~
+ {4}{R}{G}{B} (rare)
+Legendary Creature ~ Avatar (5/5)
+Flying
+Trample
+Whenever a player has three or more land cards in their graveyard,  gets +3/+3 until end of turn.
+~~~~~~~~
+Larceny {B} (common)
+Instant
+Target opponent sacrifices a creature.
+Morbid ~ that player sacrifices two cards in any order instead if a creature died this turn.
+~~~~~~~~
+Mosswort Extractor (common)
+Artifact
+{T}: target land you control becomes a 3/3 artifact creature until end of turn. When Mosswort Extractor leaves the battlefield this turn, remove that artifact. When that land leaves the battlefield this turn, sacrifice Mosswort Extractor. Activate this ability only any time you could cast a sorcery.
+~~~~~~~~
+Mardu Heart-Piercer {5}{G}{G} (rare)
+Legendary Creature ~ Ogre Warrior (3/7)
+Horsemanship.
+~~~~~~~~
+Leonin Abunas {1}{W} (rare)
+Legendary Creature ~ Cat Warrior (1/2)
+At end of combat, if Leonin Abunas attacked or blocked this combat, put a -0/-1 counter on Leonin Abunas and you gain 1 life.
+At end of combat, if Leonin Abunas was blocked this combat, put a -1/-1 counter on Leonin Abunas and you gain 2 life.
+~~~~~~~~
+Rise {2}{R} (common)
+Sorcery
+Create two 1/1 red goblin creature tokens, then assign no combat damage this turn.
+~~~~~~~~
+Bloodfell Caves (common)
+Land
+{T}: add {C}.
+{2}{B}, {T}, sacrifice Bloodfell Caves: target opponent sacrifices a creature.
+~~~~~~~~
+Unhallowed Pact {1}{B}{B} (rare)
+Enchantment
+Whenever an opponent draws a card, that player loses 4 life or gains 4 life.
+Whenever a player casts a spell, if that player is the monarch, that player loses 4 life or gains 4 life.
+~~~~~~~~
+Treble {B/G}{B/G} (common)
+Legendary Creature ~ Elf Shaman (2/1)
+When Treble enters the battlefield, you draw a card.
+~~~~~~~~
+Master Trinketeer {3}{U} (common)
+Artifact Creature ~ Human Artificer (2/4)
+When Master Trinketeer enters the battlefield, put target artifact on top of its owner's library.
+~~~~~~~~
+Sisters Of The Flame Flame {4}{B} (uncommon)
+Creature ~ Viashino Shaman (3/3)
+{T}: Sisters Of The Flame Flame deals 3 damage to target creature and add {R}.
+~~~~~~~~
+Scatter To The Winds {6}{R} (common)
+Instant
+As an additional cost to cast this spell, exile a creature card from your graveyard.
+Scatter To The Winds deals damage equal to the exiled card's power to target creature. That creature deals damage equal to its power to Scatter To The Winds.
+~~~~~~~~
+Leonin Trapper {2}{W}{W} (uncommon)
+Enchantment Creature ~ Human Soldier (4/4)
+{T}: tap target creature.
+~~~~~~~~
+Foundry Champion {7}{R}{R}{W} (rare)
+Creature ~ Dragon (6/6)
+Flying
+Whenever Foundry Champion blocks or becomes blocked by a nonartifact creature, Foundry Champion gains first strike until end of turn.
+~~~~~~~~
+Elvish Eulogist (common)
+Creature ~ Eldrazi Werewolf (3/2)
+Sacrifice Elvish Eulogist: target creature gets +2/+2 until end of turn. If that creature would die this turn, exile it instead.
+~~~~~~~~
+Saberclaw Courier {2}{R} (common)
+Creature ~ Orc Warrior (1/2)
+Whenever Saberclaw Courier attacks, you may have it deal 1 damage to each creature defending player controls.
+~~~~~~~~
+Deepwater Hypnotist {1}{U} (uncommon)
+Creature ~ Merfolk Wizard (0/2)
+{2}, {T}: double the amount of each type you control.
+~~~~~~~~
+Jace, Ingenious Thief {W}{G}{U} (mythic)
+Legendary Planeswalker ~ Jace ((4))
+Flying
+Artifacts, creatures, lands, and lands you control have shroud.
+When Jace, Ingenious Thief dies, you may draw a card.
+~~~~~~~~
+Sunscour {0} (rare)
+Creature ~ Angel (2/5)
+Flying
+When Sunscour enters the battlefield, it deals 5 damage divided as you choose among any number of target creatures you control.
+~~~~~~~~
+Skullmane Baku {X}{B} (uncommon)
+Artifact ~ Equipment
+Equip {1}
+{2}: equipped creature gets +1/+0 until end of turn.
+{1}, sacrifice equipped creature: return Skullmane Baku from your graveyard to your hand.
+~~~~~~~~
+Skirk Volcanist {2}{R} (common)
+Creature ~ Goblin Shaman (2/2)
+When Skirk Volcanist enters the battlefield, create a 1/1 red goblin creature token.
+~~~~~~~~
+Withering Wind {3}{G} (common)
+Instant
+Withering Wind deals 3 colorless eldrazi damage to target creature or planeswalker. That creature or that planeswalker loses all abilities and may add an additional one mana of any color.
+~~~~~~~~
+Lonely Sandbar (common)
+Land
+Lonely Sandbar enters the battlefield tapped.
+{T}: add {U}.
+Hellbent ~ Lonely Sandbar enters the battlefield with a +1/+1 counter on it if you have no cards in hand.
+~~~~~~~~
+Stromkirk Noble {2}{R} (common)
+Creature ~ Vampire (3/4)
+Vigilance
+~~~~~~~~
+In The Name Of Duty {2}{G} (common)
+Instant
+Cast this spell only during combat.
+Choose target attacking or blocking creature. That creature dodges each combat if it shares a color with the chosen creature. Repeat this process until no other creatures block this combat.
+~~~~~~~~
+Frightcrawler {R} (common)
+Creature ~ Human Shaman (1/1)
+Whenever you cast a spirit or arcane spell, Frightcrawler gains fear until end of turn.
+~~~~~~~~
+Aethergeode Miner {1}{U} (common)
+Creature ~ Vedalken Wizard (2/1)
+When Aethergeode Miner dies, you may draw a card.
+~~~~~~~~
+Mardu Ascendancy (rare)
+Enchantment
+Whenever an opponent searches their library for a forest or plains card, they may put that card onto the battlefield. Then all players shuffle their library.
++1: add {G} for each card put into a graveyard this way.
+-3: untap all forests you control. During each other player's next turn, uncast all abilities that aren't put onto the battlefield.
+~~~~~~~~
+Avacyn'S Pilgrim {3}{U}{W} (common)
+Creature ~ Bird Monk (3/3)
+Flying
+~~~~~~~~
+Blood Clock {2}{R} (uncommon)
+Enchantment
+At the beginning of each player's upkeep, that player draws a card, then discards a card at random.
+~~~~~~~~
+Reaping The Stage {G}{X}{G} (rare)
+Sorcery
+Entwine {1}{B}
+Choose one ~
+= Destroy target enchantment.
+= Return target creature card with converted mana cost X or less from your graveyard to the battlefield.
+~~~~~~~~
+Jukai Messenger {3}{G} (uncommon)
+Creature ~ Human Monk (3/2)
+Trample
+~~~~~~~~
+Hollowhenge Scamp {1}{B} (common)
+Creature ~ Spirit (1/1)
+Discard a card: Hollowhenge Scamp gains shadow until end of turn.
+~~~~~~~~
+Reaver Ambush {3}{R} (common)
+Instant
+Target creature you control gets +2/+1 until end of turn.
+Draw a card.
+~~~~~~~~
+Fretwork Colony {2}{B}{B} (uncommon)
+Creature ~ Insect (3/4)
+Unearth {1}{B}
+~~~~~~~~
+Blind Fury {0} (uncommon)
+Tribal Sorcery ~ Goblin
+~~~~~~~~
+Chub Toad {1}{G} (common)
+Creature ~ Frog (2/1)
+Flash
+Evolve
+~~~~~~~~
+Ichorclaw Myron {3}{B}{B} (common)
+Creature ~ Shapeshifter (4/4)
+Changeling
+{0}: Ichorclaw Myron gets +2/+2 until end of turn.
+~~~~~~~~
+Orcish Mechanics {2}{B} (uncommon)
+Creature ~ Orc Hulk (1/3)
+{2}, {T}: Orcish Mechanics deals 1 damage to any target.
+~~~~~~~~
+
+ (2/2)
+~~~~~~~~
+Scuzzback Scrapper {3}{R} (common)
+Creature ~ Goblin Pirate (1/1)
+Haste
+{R}: Scuzzback Scrapper gets +1/+0 until end of turn.
+~~~~~~~~
+Syphon Life {G}{B} (uncommon)
+Instant
+Exile up to two target creatures from the top of your library. If you cast this spell during your main phase, it deals 2 damage to you and you gain 2 life.
+~~~~~~~~
+Lurker {G}{B} (common)
+Legendary Creature ~ Treefolk Shaman (2/1)
+Kinship ~ at the beginning of your upkeep, you may look at the top card of your library. If it shares a creature type with Lurker, you may reveal it. If you do, each opponent discards a card.
+~~~~~~~~
+Shaman Of Spring {3}{G} (uncommon)
+Creature ~ Human Druid (2/2)
+{T}: untap target land.
+~~~~~~~~
+Skystreamer {0} (common)
+Creature ~ Viashino Knight (3/3)
+Flying
+Vigilance
+{1}{S}: Skystreamer gets +2/+2 until end of turn. Activate this ability only once each turn.
+~~~~~~~~
+Hearthfire {R} (uncommon)
+Instant
+Hearthfire deals damage to any target equal to twice the number of allies you control.
+~~~~~~~~
+Setessan Griffin {1}{G} (common)
+Creature ~ Elf Scout Spells You Cast Cost {^} Less To Cast.\Heroic ~ Whenever You Cast A Spell That Targets @, You Gain &^^ Life. (2/1)
+~~~~~~~~
+Dwarven Thaumaturgist {3}{R}{R} (uncommon)
+Creature ~ Dwarf Spellshaper (3/1)
+{1}{R}, {T}: create a 0/1 red thaumaturgist creature token with defender and trample.
+At the beginning of your upkeep, sacrifice a land and discard your hand. If you can't, put a +1/+1 counter on Dwarven Thaumaturgist.
+{T}: Dwarven Thaumaturgist deals 1 damage to any target.
+~~~~~~~~
+Sharding Kudu {3}{G} (uncommon)
+Legendary Creature ~ Wurm (3/8)
+Flash
+Trample
+Sharding Kudu enters the battlefield tapped.
+When Sharding Kudu enters the battlefield, you gain 2 life.
+When Sharding Kudu dies, return Sharding Kudu to its owner's hand.
+~~~~~~~~
+Jyoti, The Falling Star {3}{R} (uncommon)
+Creature ~ Human Monk (0/2)
+{T}: Jyoti, The Falling Star deals 1 damage to any target.
+Whenever you cast an instant or sorcery spell, you may untap Jyoti, The Falling Star.
+~~~~~~~~
+Golting Wurm {3}{G} (common)
+Creature ~ Wurm (6/5)
+~~~~~~~~
+Tears Of Valakut {3}{R} (uncommon)
+Enchantment
+Fading 4
+At the beginning of each opponent's upkeep, Tears Of Valakut deals 1 damage to that player.
+~~~~~~~~
+Saruli Wolf {5}{G}{G} (uncommon)
+Creature ~ Cat (5/1)
+When Saruli Wolf enters the battlefield, if you control a green permanent, draw a card, then discard a card.
+~~~~~~~~
+Wall Of Omens {3}{W} (uncommon)
+Creature ~ Wall (0/5)
+Defender
+Flying
+Whenever Wall Of Omens blocks a creature, you may draw a card.
+~~~~~~~~
+Veteran Motorist {2}{B} (uncommon)
+Creature ~ Human Artificer (2/2)
+When Veteran Motorist enters the battlefield, you get {E}{E} .
+Pay {E}: target artifact creature gets +1/+1 until end of turn.
+~~~~~~~~
+Time Bomb {2} (rare)
+Artifact
+At the beginning of your upkeep, put a time counter on Time Bomb.
+At the beginning of your end step, Time Bomb deals damage equal to the number of time counters on it to each creature your opponents control.
+When Time Bomb dies or is put into exile from the battlefield, you may put it into its owner's library third from the top.
+{4}, {T}, sacrifice Time Bomb: it deals damage equal to the number of time counters on it to each creature and each planeswalker.
+
+~~~~~~~~
+Bolas {B} (uncommon)
+Enchantment
+Whenever you play a nonplaneswalker, you may put X pawns counters on Bolas, where X is the number of pawns counters on Bolas.
+
+~~~~~~~~
+Bloodline Of Heroes {1}{G}{B} (uncommon)
+Creature ~ Elf Warrior (2/1)
+{T}, pay 2 life: add {R}. Spend this mana only to cast elf spells.
+~~~~~~~~
+Ghost-Lit Attackers {G}{G} (uncommon)
+Creature ~ Human Soldier (2/2)
+{T}: destroy target permanent if its converted mana cost is the same or difference
+Ghost-Lit Attackers deals damage equal to the number of ki counters on it to any target.
+
+~~~~~~~~
+Deathrhonor'S Verdict {4}{R}{R} (rare)
+Sorcery
+Destroy all green creatures.
+~~~~~~~~
+Spiteful Blow {2}{B}{B} (common)
+Sorcery
+Spiteful Blow deals 3 damage to any target and you gain 3 life.
+~~~~~~~~
+Snowden {3}{U} (common)
+Enchantment ~ Aura
+Enchant creature
+When Snowden enters the battlefield, snow passes for nonlegendary creatures.
+~~~~~~~~
+Stonefare Crocodile {3}{G} (common)
+Creature ~ Crocodile (2/2)
+When Stonefare Crocodile enters the battlefield, exile it unless you return three basic land cards from your graveyard to the battlefield with a +1/+1 counter on it.
+Remove a +1/+1 counter from Stonefare Crocodile: tap target land.
+~~~~~~~~
+Zhalfirin Fortress (common)
+Land ~ Zir
+Zhalfirin Fortress enters the battlefield tapped.
+{1}, {T}: return Zhalfirin Fortress to its owner's hand.
+~~~~~~~~
+Desert Shade {1}{B} (common)
+Creature ~ Shade (1/1)
+Lifelink
+~~~~~~~~
+Spoils Of Victory {W} (rare)
+Instant
+Untap target attacking creature. Prevent all combat damage that would be dealt to and dealt by that creature this turn.
+Draw a card.
+~~~~~~~~
+Hunting Moa {4}{G} (uncommon)
+Creature ~ Bird (5/5)
+As Hunting Moa enters the battlefield, look at the top four cards of your library. You may reveal a creature or enchantment card from among them and put it into your hand. Put the rest on the bottom of your library in a random order.
+~~~~~~~~
+Izzet Signet (common)
+Creature ~ Human Cleric (1/3)
+{1}, {T}: look at the top card of target player's library. You may put that card into that player's graveyard.
+~~~~~~~~
+Deadly Recluse {3}{B}{B} (mythic)
+Creature ~ Spider (5/4)
+Flying
+{2}{B}: regenerate Deadly Recluse.
+~~~~~~~~
+Tribute Mage {2}{U}{U} (uncommon)
+Creature ~ Human Wizard (2/2)
+When Tribute Mage enters the battlefield, you may search your library for an artifact card with converted mana cost 3, reveal it, put it into your hand, then shuffle your library.
+~~~~~~~~
+Chandra'S Outburst {1}{W}{R} (uncommon)
+Sorcery
+Chandra'S Outburst deals 3 damage divided as you choose among one or two targets. Chandra'S Outburst deals damage equal to the number of creatures dealt damage this way to any target.
+~~~~~~~~
+ {1}{U} (rare)
+Creature ~ Human Rogue Mutant (1/2)
+{U}:  gains flying until end of turn.
+{U}:  gains shroud until end of turn.
+{U}:  gets +1/+0 until end of turn.
+Formidable ~ {5}{U}: draw a card, then discard a card. Activate this ability only if creatures you control have total power 8 or greater.
+~~~~~~~~
+Lazal, The Extinguisher {2}{B}{B} (mythic)
+Legendary Creature ~ Zombie Wizard (2/3)
+{4}{B}, sacrifice another creature: target opponent reveals their hand. You choose a noncreature card from it. That player discards that card. Activate this ability only any time you could cast a sorcery.
+~~~~~~~~
+Ludevic'S Plaything {1}{U} (uncommon)
+Creature ~ Bird (1/1)
+Flying
+Whenever you cast an instant or sorcery spell that targets only Ludevic'S Plaything, put a +1/+1 counter on Ludevic'S Plaything.
+~~~~~~~~
+Kruphix, God Of Horizons {3}{G} (common)
+Legendary Planeswalker ((5))
++2: untap all creatures you control. Those creatures get +1/+1 until end of turn.
+0: create a 2/2 green wolf creature token.
+-4: you get an emblem with "whenever you cast a noncreature spell, Kruphix, God Of Horizons deals 4 damage to any target."
+~~~~~~~~
+Arcane Alchemy {2}{U} (uncommon)
+Enchantment
+At the beginning of each end step, draw a card.
+~~~~~~~~
+Gumala'S Blessing {4}{U} (uncommon)
+Enchantment
+{1}{U}{G/U}{G/U}: you gain 2 life. Activate this ability only if you control a gumberfish.
+~~~~~~~~
+Tattered Haunter {2}{U} (common)
+Creature ~ Human Wizard (2/1)
+Flying
+{1}{U}: look at target face~down creature.
+~~~~~~~~
+Chill Of Foreboding {2}{U}{R} (common)
+Instant
+Tap up to two target creatures. Those creatures don't untap during their controller's next untap step.
+~~~~~~~~
+Glittering Lynx {2}{W} (rare)
+Creature ~ Angel Horror (2/2)
+Flying
+Glittering Lynx has echo {R}{R}.
+{X}, {T}: if Glittering Lynx is on the battlefield, it deals X damage to target creature with flying.
+{2}{W}: prevent the next X damage that would be dealt to target creature this turn.
+~~~~~~~~
+Virtus The Veiled {1}{G}{B} (rare)
+Legendary Creature ~ Avatar (2/2)
+As long as the source of your next damage is black or red, Virtus The Veiled gets +5/+0.
+As long as the source of your next nonred damage is white, Virtus The Veiled has deathtouch.
+~~~~~~~~
+Gideon'S Resolve {2}{B} (uncommon)
+Enchantment ~ Eldrazi
+Creatures you control get +1/+0 and have first strike.
+~~~~~~~~
+Spinneret Sliver {G} (common)
+Creature ~ Sliver (1/1)
+All sliver creatures have reach.
+~~~~~~~~
+Reconcile {1}{B}{B}{R}{W} (rare)
+Instant
+Exile up to five target creature cards from graveyards. An opponent separates those cards into two piles. Put all cards from the pile of your choice onto the battlefield under your control and the rest into their owners' graveyards.
+~~~~~~~~
+Knight Sentry {1}{W} (uncommon)
+Creature ~ Human Soldier (1/2)
+{X}, {T}: Knight Sentry deals X damage to target attacking or blocking creature. Activate this ability only before the combat damage step.
+~~~~~~~~
+Troll Of Trokair {1}{G}{R}{B} (uncommon)
+Creature ~ Troll Mutant (2/4)
+Hexproof
+{1}{R}{G}: regenerate Troll Of Trokair.
+~~~~~~~~
+Cenn'S Enlistment {1}{U} (common)
+Instant
+Untap target creature. It gets +1/+1 until end of turn.
+~~~~~~~~
+Crovax The Scheming {3}{U} (rare)
+Legendary ~ Human Rogue (4/4)
+{T}: draw a card. Activate this ability only before the capture step.
+At the beginning of your upkeep, if Crovax The Scheming is the only creature card in your graveyard, you may return Crovax The Scheming to the battlefield.
+~~~~~~~~
+Blood Host {2}{B} (rare)
+Creature ~ Vampire (1/1)
+Pay 2 life: transform Blood Host.
+~~~~~~~~
+Svyelunite Priest {4}{U} (rare)
+Creature ~ Human Cleric (2/4)
+{R}, {T}: Svyelunite Priest deals damage equal to its power to target creature. That creature deals damage equal to its power to Svyelunite Priest.
+~~~~~~~~
+
+
+
