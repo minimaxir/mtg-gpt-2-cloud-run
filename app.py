@@ -7,6 +7,7 @@ import uvicorn
 import os
 import re
 import requests
+import logging
 from random import uniform
 
 
@@ -51,6 +52,10 @@ async def encode_mana(card_mana):
     return '{' + colorless_costs + normal_costs + hybrid_costs + '}'
 
 
+async def is_ascii(text):
+    return all(ord(c) < 128 for c in text)
+
+
 @app.route('/', methods=['GET', 'POST', 'HEAD'])
 async def homepage(request):
     global generate_count
@@ -63,16 +68,19 @@ async def homepage(request):
     elif request.method == 'HEAD':
         return UJSONResponse({'text': ''},
                              headers=response_header)
-    fields = ['card_name', 'card_type', 'card_mana']
-    print("Input params: {}".format(str({x: params.get(x, '') for x in fields})))
+    fields = ['card_name', 'card_type', 'card_subtype', 'card_mana']
+    logging.debug("Input params: {}".format(str({x: params.get(x, '') for x in fields})))
 
     # Make sure card name is ASCII
-    if not all(ord(c) < 128 for c in params.get('card_name', '')):
+    valid_card_type = await is_ascii(params.get('card_type', ''))
+    valid_card_subtype = await is_ascii(params.get('card_subtype', ''))
+    if not valid_card_type or not valid_card_subtype:
         return UJSONResponse({'text_format': "<div class='gen-box warning'>Only use English/ASCII characters in the Card Name</div>", 'image': ''},
                              headers=response_header)
 
     card_name = params.get('card_name', '')[:30].lower().strip()
     card_type = params.get('card_type', '')
+    card_subtype = params.get('card_subtype', '')[:30].lower().strip()
     card_mana = params.get('card_mana', '').strip().upper()
 
     # Make sure mana symbols are valid
@@ -86,6 +94,8 @@ async def homepage(request):
         text += '1' + card_name + "|"
     if card_type != '':
         text += '5' + card_type + "|"
+    if card_subtype != '':
+        text += '6' + card_subtype + "|"
     if card_mana != '':
         try:
             mana_enc = await encode_mana(card_mana)
