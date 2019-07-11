@@ -176,7 +176,7 @@
         and <a href="https://github.com/minimaxir/gpt-2-cloud-run" target="_blank"><strong>gpt-2-cloud-run</strong></a>.
          Inspired by  <a
           href="https://twitter.com/roborosewater" target="_blank">RoboRosewater</a> and <a
-          href="https://twitter.com/droidrosewater" target="_blank">DroidRosewater</a>. This website has no affiliation with <a href="https://www.wizards.com" target="_blank">Wizards of the Coast</a>.
+          href="https://twitter.com/droidrosewater" target="_blank">DroidRosewater</a>. This website has no affiliation with <a href="https://www.wizards.com" target="_blank">Wizards of the Coast</a>. Field inputs are logged when generating.
       </p>
     </div>
   </footer>
@@ -199,7 +199,7 @@
       for (x = 0; x < iters; x++) {
       $.ajax({
         type: "POST",
-        url: "https://gpt2-mtg-dstdu4u23a-uc.a.run.app/",
+        url: "http://0.0.0.0:8080",
         dataType: "json",
         data: JSON.stringify(getInputValues()),
         success: function (data) {
@@ -210,7 +210,7 @@
           $("#text-output").html(html);
         },
         error: function (jqXHR, textStatus, errorThrown) {
-          var html = '<div class="gen-box warning">There was an error generating the text! Please try again!</div><div class="gen-border"></div>';
+          var html = '<div class="gen-box warning">There was an error generating the text! Please try again!</div>';
           $("#text-output").html(html);
         }
       });

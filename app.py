@@ -14,7 +14,7 @@ MIN_LENGTH = 100
 MAX_LENGTH = 300
 STEP_LENGTH = 100
 
-IMAGE_API_URL = os.environ.get('APIURL', 'http://0.0.0.0:8080')
+IMAGE_API_URL = os.environ.get('APIURL', 'http://0.0.0.0:8081')
 
 app = Starlette(debug=False)
 
@@ -63,10 +63,23 @@ async def homepage(request):
     elif request.method == 'HEAD':
         return UJSONResponse({'text': ''},
                              headers=response_header)
+    fields = ['card_name', 'card_type', 'card_mana']
+    print("Input params: {}".format(str({x: params.get(x, '') for x in fields})))
+
+    # Make sure card name is ASCII
+    if not all(ord(c) < 128 for c in params.get('card_name', '')):
+        return UJSONResponse({'text_format': "<div class='gen-box warning'>Only use English/ASCII characters in the Card Name</div>", 'image': ''},
+                             headers=response_header)
 
     card_name = params.get('card_name', '')[:30].lower().strip()
     card_type = params.get('card_type', '')
-    card_mana = params.get('card_mana', '').strip()
+    card_mana = params.get('card_mana', '').strip().upper()
+
+    # Make sure mana symbols are valid
+    valid_mana_symbols = set("1234567890WUBRGPSC{}")
+    if not all(x in valid_mana_symbols for x in card_mana):
+        return UJSONResponse({'text_format': "<div class='gen-box warning'>The mana cost was entered incorrectly!</div>", 'image': ""},
+                                 headers=response_header)
 
     text = "<|startoftext|>|"
     if card_name != '':
@@ -77,7 +90,7 @@ async def homepage(request):
         try:
             mana_enc = await encode_mana(card_mana)
         except:
-            return UJSONResponse({'text': 'The mana cost was entered incorrectly!'},
+            return UJSONResponse({'text_format': "<div class='gen-box warning'>The mana cost was entered incorrectly!</div>", 'image': ""},
                                  headers=response_header)
         text += '3' + mana_enc + "|"
 
