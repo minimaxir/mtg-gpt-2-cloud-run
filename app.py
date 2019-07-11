@@ -8,7 +8,7 @@ import os
 import re
 import requests
 import logging
-from random import uniform
+from random import uniform, shuffle
 
 
 MIN_LENGTH = 100
@@ -75,7 +75,7 @@ async def homepage(request):
     valid_card_type = await is_ascii(params.get('card_type', ''))
     valid_card_subtype = await is_ascii(params.get('card_subtype', ''))
     if not valid_card_type or not valid_card_subtype:
-        return UJSONResponse({'text_format': "<div class='gen-box warning'>Only use English/ASCII characters in the Card Name</div>", 'image': ''},
+        return UJSONResponse({'text_format': "<div class='gen-box warning'>Only use English/ASCII characters in the Card Name or Card Subtype</div>", 'image': ''},
                              headers=response_header)
 
     card_name = params.get('card_name', '')[:30].lower().strip()
@@ -90,19 +90,23 @@ async def homepage(request):
                                  headers=response_header)
 
     text = "<|startoftext|>|"
+    sections = []
     if card_name != '':
-        text += '1' + card_name + "|"
+        sections.append('1' + card_name + "|")
     if card_type != '':
-        text += '5' + card_type + "|"
+        sections.append('5' + card_type + "|")
     if card_subtype != '':
-        text += '6' + card_subtype + "|"
+        sections.append('6' + card_subtype + "|")
     if card_mana != '':
         try:
             mana_enc = await encode_mana(card_mana)
         except:
             return UJSONResponse({'text_format': "<div class='gen-box warning'>The mana cost was entered incorrectly!</div>", 'image': ""},
                                  headers=response_header)
-        text += '3' + mana_enc + "|"
+        sections.append('3' + mana_enc + "|")
+
+    shuffle(sections)
+    text += ''.join(sections)
 
     prepend = text
     length = MIN_LENGTH
