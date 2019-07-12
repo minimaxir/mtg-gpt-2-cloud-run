@@ -211,7 +211,12 @@
         data: JSON.stringify(getInputValues()),
         success: function (data) {
           var card_text = data.text_format.replace(/\n/g, "<br />");
-          var card_image = 'data:image/jpg;base64, ' + data.image;
+          if (data.image !="") {
+            var card_image = 'data:image/jpg;base64, ' + data.image;
+          }
+          else {
+            var card_image = 'mtg_card_back.jpg';
+          }
           var html = '<p class="subtitle">' + card_text + '</p>';
           $("#card-output").attr('src', card_image);
           $("#text-output").html(html);

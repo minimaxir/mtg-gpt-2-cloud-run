@@ -69,7 +69,8 @@ async def homepage(request):
         return UJSONResponse({'text': ''},
                              headers=response_header)
     fields = ['card_name', 'card_type', 'card_subtype', 'card_mana']
-    logging.debug("Input params: {}".format(str({x: params.get(x, '') for x in fields})))
+    logging.debug("Input params: {}".format(
+        str({x: params.get(x, '') for x in fields})))
 
     # Make sure card name is ASCII
     valid_card_type = await is_ascii(params.get('card_type', ''))
@@ -87,7 +88,7 @@ async def homepage(request):
     valid_mana_symbols = set("1234567890WUBRGPSC{}")
     if not all(x in valid_mana_symbols for x in card_mana):
         return UJSONResponse({'text_format': "<div class='gen-box warning'>The mana cost was entered incorrectly!</div>", 'image': ""},
-                                 headers=response_header)
+                             headers=response_header)
 
     text = "<|startoftext|>|"
     sections = []
@@ -108,7 +109,6 @@ async def homepage(request):
     shuffle(sections)
     text += ''.join(sections)
 
-    prepend = text
     length = MIN_LENGTH
     good_text = False
     while not good_text:
@@ -144,8 +144,8 @@ async def homepage(request):
         if all([counts[x] == 1 for x in section_ids]) and valid_card_text:
             good_text = True
         else:
-            text = prepend
-            length = MIN_LENGTH
+            return UJSONResponse({'text_format': "<div class='gen-box warning'>Unfortunately, the AI created an invalid card. Please try again!</div>", 'image': ""},
+                                 headers=response_header)
 
     r = requests.post(IMAGE_API_URL, json={'text': trunc_text}, timeout=10)
 
