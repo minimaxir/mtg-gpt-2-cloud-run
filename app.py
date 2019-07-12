@@ -136,17 +136,18 @@ async def homepage(request):
         eot_esc = re.escape('<|endoftext|>')
         pattern = '(?:{})(.*)(?:{})'.format(prepend_esc, eot_esc)
         trunc_text = re.search(pattern, text).group(1)
+        valid_card_text = await is_ascii(trunc_text)
 
         # ensure there is only one of each section in the generated card
         counts = Counter(trunc_text)
         section_ids = ['0', '1', '3', '4', '5', '6', '7', '8', '9']
-        if all([counts[x] == 1 for x in section_ids]):
+        if all([counts[x] == 1 for x in section_ids]) and valid_card_text:
             good_text = True
         else:
             text = prepend
             length = MIN_LENGTH
 
-    r = requests.post(IMAGE_API_URL, json={'text': trunc_text})
+    r = requests.post(IMAGE_API_URL, json={'text': trunc_text}, timeout=10)
 
     return UJSONResponse(r.json(),
                          headers=response_header)
