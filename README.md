@@ -13,7 +13,7 @@ You can see examples of card text generation at various temperatures in the `gen
 ## Helpful Notes
 
 * To share the generated card image, you can Save As the generated card locally, and to use it elsewhere, rename it and add a `.jpg` file extension.
-* Since the network overfits, the temperature doesn't have a huge impact; a random temperature between 0.7 and 1.2 is used to make output more random/exciting.
+* Since the network overfits, the temperature doesn't have a huge impact; a random temperature between 0.7 and 1.0 is used to make output more random/exciting.
 * The network can recite existing card names and rules text of existing cards, but rarely to the same card. The network often makes interesting color shift decisions with changes to CMC/Rarity.
 * In terms of color accuracy, color pie is mostly correct. Creature types and mechanics often follow the appropriate color identity. P/T, mana cost, and rarity are balanced.
 * Occasionally, it does get card types wrong, e.g. P/T on noncreatures.
