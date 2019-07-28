@@ -147,13 +147,15 @@ async def homepage(request):
             return UJSONResponse({'text_format': "<div class='gen-box warning'>Unfortunately, the AI created an invalid card. Please try again!</div>", 'image': ""},
                                  headers=response_header)
 
-    r = requests.post(IMAGE_API_URL, json={'text': trunc_text}, timeout=10)
+    try:
+        r = requests.post(IMAGE_API_URL, json={'text': trunc_text}, timeout=10)
 
-    return UJSONResponse(r.json(),
-                         headers=response_header)
+        return UJSONResponse(r.json(),
+                             headers=response_header)
 
-    # return UJSONResponse({'text_format': trunc_text},
-    #                      headers=response_header)
+    except:
+        return UJSONResponse({'text_format': trunc_text},
+                             headers=response_header)
 
 if __name__ == '__main__':
     uvicorn.run(app, host='0.0.0.0', port=int(os.environ.get('PORT', 8080)))
